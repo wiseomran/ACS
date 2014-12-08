@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FunctionOracle class="oracle.dbtools.crest.model.design.storage.oracle.FunctionOracle" name="GET_PROC_LAST_EMP" directorySegmentName="seg_0" id="B275A1FF-EBAF-A1C9-A93D-474BAE451CC6">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>GET_PROC_LAST_EMP</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<source>CREATE OR REPLACE function     OSD.GET_PROC_LAST_EMP(p_proc number) return varchar2 is&lt;br/&gt;    v_serial number;&lt;br/&gt;    v_emp    number;&lt;br/&gt;    v_ename  varchar2(300) :=&apos;&apos;;&lt;br/&gt;    v_dept   number;&lt;br/&gt;    v_date   date;&lt;br/&gt;    &lt;br/&gt;begin&lt;br/&gt;    &lt;br/&gt;    SELECT employee_no, department_no into v_emp, v_dept&lt;br/&gt;    FROM osd.employee_actions&lt;br/&gt;    WHERE process_no = p_proc&lt;br/&gt;    and time = (SELECT max(time) FROM osd.employee_actions WHERE process_no = p_proc) ;    &lt;br/&gt;    &lt;br/&gt;    begin&lt;br/&gt;        select employee_first_name||&apos; &apos;||employee_father_name||&apos; &apos;||employee_grand_name||&apos; &apos;||employee_family_name into v_ename&lt;br/&gt;        from osd.comm_employees&lt;br/&gt;        where employee_no = v_emp&lt;br/&gt;        and department_no = v_dept;&lt;br/&gt;    exception&lt;br/&gt;        when no_data_found then&lt;br/&gt;           v_ename:= &apos;&apos;;            &lt;br/&gt;    end;     &lt;br/&gt;    &lt;br/&gt;    return v_ename;&lt;br/&gt;    &lt;br/&gt;end;</source>
+</FunctionOracle>

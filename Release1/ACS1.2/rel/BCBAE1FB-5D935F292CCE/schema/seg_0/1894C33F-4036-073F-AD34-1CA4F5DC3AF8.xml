@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="OSD" directorySegmentName="seg_0" id="1894C33F-4036-073F-AD34-1CA4F5DC3AF8">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteDesignID>FC08FCB9-B251-5E59-1CB2-BB8A37701BF3</remoteDesignID>
+<remoteModelID>5161B54E-4A3D-8330-1FA7-8C3ECEA6FD2C</remoteModelID>
+<remoteObjectID>B072D8DA-A873-23F1-7CCE-75D813729B16</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\5161B54E-8C3ECEA6FD2C\schema/seg_0/B072D8DA-A873-23F1-7CCE-75D813729B16.xml</remoteObjectRelativeStorageName>
+</SchemaObject>

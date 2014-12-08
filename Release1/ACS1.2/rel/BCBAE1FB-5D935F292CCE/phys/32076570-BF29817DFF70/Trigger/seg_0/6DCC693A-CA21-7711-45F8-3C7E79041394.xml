@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PROSSTAT_AUTOREC" directorySegmentName="seg_0" id="6DCC693A-CA21-7711-45F8-3C7E79041394">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PROSSTAT_AUTOREC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>DECLARE&lt;br/&gt;&lt;br/&gt;/*???? ?????? ?????? ???? osd.process_status ?????? ??????? ?????? ????????.*/&lt;br/&gt;/* This trigger to log actions into  osd.process_status  table */ &lt;br/&gt;&lt;br/&gt;    v_location       number;&lt;br/&gt;&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;IF DBMS_REPUTIL.FROM_REMOTE = FALSE THEN&lt;br/&gt;    &lt;br/&gt;    if inserting then&lt;br/&gt;    &lt;br/&gt;       if :new.rec_flag = 1 then&lt;br/&gt;       &lt;br/&gt;         -------------------- ?????? ???? ??? ???????  ---------------------------   &lt;br/&gt;          begin  &lt;br/&gt;            select location into v_location&lt;br/&gt;            from main.departments&lt;br/&gt;            where department_no = :new.to_dept;&lt;br/&gt;          exception&lt;br/&gt;            when no_data_found then null;&lt;br/&gt;          end; &lt;br/&gt;                                   &lt;br/&gt;         &lt;br/&gt;         -------------------  ?????? ???????? ----------------------------------   &lt;br/&gt;         update osd.process_status set&lt;br/&gt;            rec_user = :new.rec_user,&lt;br/&gt;            rec_date = :new.rec_date,&lt;br/&gt;            time_flag = sysdate,&lt;br/&gt;            current_dept = :new.to_dept,&lt;br/&gt;            location = v_location&lt;br/&gt;         where process_no = :new.process_no  ;&lt;br/&gt;                              &lt;br/&gt;       end if;&lt;br/&gt;    &lt;br/&gt;    elsif updating then&lt;br/&gt;        update osd.process_status set&lt;br/&gt;            rec_user = :new.rec_user,&lt;br/&gt;            rec_date = :new.rec_date,&lt;br/&gt;            current_dept = :new.to_dept,&lt;br/&gt;            location = v_location&lt;br/&gt;         where process_no = :old.process_no  ;&lt;br/&gt;    &lt;br/&gt;    end if;&lt;br/&gt;end if; &lt;br/&gt;       &lt;br/&gt;exception&lt;br/&gt;   when no_data_found then null; &lt;br/&gt;END; </body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>32CE737E-B1F7-30BF-9A1E-8B2DD8C09CB6</table>
+</TriggerOraclev10g>

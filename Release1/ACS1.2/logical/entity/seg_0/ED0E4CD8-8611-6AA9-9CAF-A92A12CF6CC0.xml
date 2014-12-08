@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED0E4CD8-8611-6AA9-9CAF-A92A12CF6CC0" name="LINKED">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>جدنف ربظ اف�ٍند كغ افصادر افغاك</commentInRDBMS>
+<generatorID>8182984D-1343-434B-F14F-AAD2CF460C72</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LINKED CODE" id="003ACE3E-B7CD-1591-7E30-F2AB15A02A84">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>ر�ك افربظ</commentInRDBMS>
+<generatorID>934A6A0F-77BD-2258-4004-47903FB1D030</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<referedAttribute>BB636D4E-F7A8-A536-0718-691C410C51ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+</Attribute>
+<Attribute name="LINKED YEAR" id="E865B77B-E548-8479-7572-A8563EBA1520">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>افسلة</commentInRDBMS>
+<generatorID>934A6A0F-77BD-2258-4004-47903FB1D030</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<referedAttribute>1002C87B-657E-7429-3125-A9EDEEF36988</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="PROCESS NO" id="4FE4167A-E3CA-905D-1B1A-D7D2AE55A680">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>ر�ك اف�ٍد</commentInRDBMS>
+<generatorID>62328B2C-7194-39FB-AE08-F3044A481B22</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<referedAttribute>41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+</Attribute>
+<Attribute name="YEAR" id="B363B4D9-F5FB-5A4A-CAD4-B018187D7242">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>سلة اف�ٍد</commentInRDBMS>
+<generatorID>62328B2C-7194-39FB-AE08-F3044A481B22</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<referedAttribute>FD798286-B0DC-7126-BFF8-A5D18C31CBF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="SADER NO" id="5522CC49-658B-0CA2-FB4B-960C17B1E0F8">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>ر�ك افصادر</commentInRDBMS>
+<generatorID>934A6A0F-77BD-2258-4004-47903FB1D030</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<referedAttribute>A61780F8-E79B-CE73-6F18-8F8C317F7060</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+</Attribute>
+<Attribute name="YEAR SADER" id="4413C3B3-768B-1111-3671-B59BE5C6CFC1">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>سلة افصادر</commentInRDBMS>
+<generatorID>934A6A0F-77BD-2258-4004-47903FB1D030</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<referedAttribute>65F95B33-D257-E6A6-AAA2-88EB416200A0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="IN DATE" id="89CF0E39-13A7-302F-8CF4-4F0739CD94EA">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>تارٍخ افربظ</commentInRDBMS>
+<generatorID>0BD2441E-5004-5A74-6732-5C33050B3D87</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="IN TIME" id="9244661B-D9D0-030F-1CED-79854C9EF203">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>افن�ت</commentInRDBMS>
+<generatorID>9261A493-AC54-269E-2E06-4BB2C6E3B199</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute name="USER ID" id="4D611A76-6D0C-588F-D97D-999C0B0923E6">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<commentInRDBMS>ركز افكدخف</commentInRDBMS>
+<generatorID>78373835-7260-D370-D82C-C27DA671CCFF</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+</Attribute>
+<Attribute name="TIME" id="334A79F8-2287-1247-2518-DF6DDE82DE1E">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<generatorID>9C8F417F-80D8-21BE-A04D-C3957410577F</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute name="SITE" id="59EF46EE-CD5E-6345-23ED-D941AEA566C5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<generatorID>1A043107-B566-5D1B-FFAA-14D1BBBE7756</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D298E54-03EB-31E4-76E4-92944E7FBDDF" name="{entity} PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<generatorID>13FCD66F-57D6-B486-03C0-AA1400A1DEA6</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>003ACE3E-B7CD-1591-7E30-F2AB15A02A84</attributeRef>
+<attributeRef>E865B77B-E548-8479-7572-A8563EBA1520</attributeRef>
+<attributeRef>5522CC49-658B-0CA2-FB4B-960C17B1E0F8</attributeRef>
+<attributeRef>4413C3B3-768B-1111-3671-B59BE5C6CFC1</attributeRef>
+<attributeRef>4FE4167A-E3CA-905D-1B1A-D7D2AE55A680</attributeRef>
+<attributeRef>B363B4D9-F5FB-5A4A-CAD4-B018187D7242</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

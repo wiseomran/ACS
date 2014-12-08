@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PROCESS_YEAR_SADER_NO" directorySegmentName="seg_0" id="6149F61B-766F-299B-B8B4-09A495A221A3">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<generatorID>7355CC30-551A-CA8E-C3C2-D5470E1BCFC9</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<sourcePk>D42F2CD2-5EF2-AE19-ADD6-5FBF4CD2DE65</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF7CCA91-1A72-DD23-1241-1BA08AAB30CA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C179AFE-B96E-6536-EFBC-8F91E75C3ED4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

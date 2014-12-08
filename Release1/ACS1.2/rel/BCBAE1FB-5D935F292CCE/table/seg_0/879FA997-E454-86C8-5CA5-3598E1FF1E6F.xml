@@ -1,0 +1,300 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="879FA997-E454-86C8-5CA5-3598E1FF1E6F" name="COMM_DOC">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_DOC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteDesignID>FC08FCB9-B251-5E59-1CB2-BB8A37701BF3</remoteDesignID>
+<remoteModelID>C4955F53-AD0F-2F13-12F5-4A3D5452E66A</remoteModelID>
+<remoteObjectID>68BAF28C-B4FB-318E-F589-55B14961F58B</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C4955F53-4A3D5452E66A\table/seg_0/68BAF28C-B4FB-318E-F589-55B14961F58B.xml</remoteObjectRelativeStorageName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENT_NO" id="3B9F0B0A-8C27-EAA6-5FA5-76E8DC153347">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>DB8391B3-C647-2477-8E1E-19263B267290</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATION_FILE" id="DFEDBFF6-EC40-61FD-F720-B79428B3AD5A">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>LOCATION_FILE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>A4094EAE-C0F7-6EB0-2C9A-EC12440193B7</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIAL" id="5B28D82A-D2BC-B782-7D8F-199EF74ECDD8">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>SERIAL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>A219166D-9417-4F68-5FC0-24E49C883851</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROCESS_NO" id="9ED519C8-6E89-FE9C-9274-12069AD54241">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>PROCESS_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>B271E57D-DBA4-0EA8-15F2-EBADF856E7A4</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="61025C54-4AD6-17F1-D1EF-2BF7B7A2E15E">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>F1BBDCCD-35F1-9454-57BF-4CC37C5A7DA3</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="271DC3AD-59E0-FE7B-B354-531EF7736A99">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>FF2CD27E-6884-7745-47D2-6C56E85315E3</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUBJECT" id="EAF25CA2-FFE5-BEEE-57AB-C5EA37868275">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>SUBJECT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>82763EBE-C5A0-DACA-192E-BC2242BD5B99</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_DD" id="A7CA0BFE-48EE-1421-D629-5130F5586A8D">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>DATE_DD</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>518AAB3F-640F-9DFF-9821-7C7A52528E0F</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_MM" id="4DC6EC6F-F9F8-5A00-9721-04B270F2A98B">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>DATE_MM</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>1B93A54F-2821-FED8-C6E5-1100C82E1DC1</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_YY" id="02054E03-2F14-224E-2C28-67BF4DE87718">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>DATE_YY</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>008E5403-A7BC-D8D7-F698-6FF935E5C444</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IN_ACCOMPANIED" id="6D94E2C4-980A-7CE6-671F-66AFC19FB4D9">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>IN_ACCOMPANIED</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>FF6F493E-695F-E060-04F0-5A0BEDC3D11E</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="1B361E82-4349-E94E-8D05-78FBBEB74A37">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>TIME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>53DC7C1E-179F-C190-2C8D-5A8F673091EE</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE" id="63CCF1B6-FD8A-A960-7803-F054E72DE6B3">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>SITE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>39B50EB6-C3F1-2211-09EF-5CBAA7EE1181</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_FLAG" id="C2F38571-422D-98AC-B272-26C5606C8302">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_DOC</sourceObjSchema>
+<sourceObjName>TRANS_FLAG</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>DC40CB6A-5C00-7CC4-9CBE-4129680326EF</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<defaultValue>21</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Omrano" id="2688CA17-FAF3-A0FF-64E0-1E4F1650FC30">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 02:09:54 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>4074D3BF-A672-9F6A-5C9E-60AEF6220A64</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<nameFixed>true</nameFixed>
+<propertyMap>
+<property name="ctemplateID" value="693AEBE1-3B98-B809-3C63-8FF4ABF31CA3"/>
+</propertyMap>
+</Column>
+<Column name="Column_2" id="9391F092-7259-DEA1-2AA4-6CC734788312">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 02:09:54 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>65FD4A1D-5D80-9043-67FB-03AF2B9CA9E0</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="06AF3308-8DFE-88C1-8CC2-CF94563A2CB7"/>
+</propertyMap>
+</Column>
+<Column name="Column_3" id="B5728C0E-A6E8-C277-9CB6-F718044A78B0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 02:13:20 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>A5EFC82A-742E-1DB8-FD9A-7681A49D6E65</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="D83C7479-BFEE-12F2-3C64-0EA382346975"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC324916-1A7A-3A42-D9D2-403E07EBEA3F" name="PK_DEP_LOC_SER">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_DEP_LOC_SER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>AED74336-FBE8-F19F-8C98-4DF4C1EF69FA</remoteObjectID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9F0B0A-8C27-EAA6-5FA5-76E8DC153347"/>
+<colUsage columnID="DFEDBFF6-EC40-61FD-F720-B79428B3AD5A"/>
+<colUsage columnID="5B28D82A-D2BC-B782-7D8F-199EF74ECDD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FEC3E3D-C744-85C7-1AB5-7411EE807A8D" name="PK_DEP_LOC_SER">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_DEP_LOC_SER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>0E352F86-A233-8EDF-8B50-7A462D6B6ACB</remoteObjectID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9F0B0A-8C27-EAA6-5FA5-76E8DC153347"/>
+<colUsage columnID="DFEDBFF6-EC40-61FD-F720-B79428B3AD5A"/>
+<colUsage columnID="5B28D82A-D2BC-B782-7D8F-199EF74ECDD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

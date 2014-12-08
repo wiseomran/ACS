@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D2540050-4283-D418-551F-2E39C4A2E812" name="C_SADER_DETAIL_C_SADER_FK">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>C_SADER_DETAIL_C_SADER_FK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteDesignID>FC08FCB9-B251-5E59-1CB2-BB8A37701BF3</remoteDesignID>
+<remoteModelID>C4955F53-AD0F-2F13-12F5-4A3D5452E66A</remoteModelID>
+<remoteObjectID>9FF7311D-2948-9559-CBBB-1277CE1D0195</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C4955F53-4A3D5452E66A\foreignkey/seg_0/9FF7311D-2948-9559-CBBB-1277CE1D0195.xml</remoteObjectRelativeStorageName>
+<containerWithKeyObject>9EF873FC-FFD0-10E9-9312-E920B9BA05DE</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>46F156B9-540B-90E2-8820-88DC7CBD031B</localFKIndex>
+<keyObject>FA1D7C66-5C04-004F-AEF7-624BC8D41D01</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="5575E418-853E-A8A6-5B3D-F0CC9F68AB73" name="COMM_SADER_ALL">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_SADER_ALL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteModelID>C4955F53-AD0F-2F13-12F5-4A3D5452E66A</remoteModelID>
+<remoteObjectID>5AF2670C-7B92-6DDE-25B6-2A026E64E6F6</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C4955F53-4A3D5452E66A\view/seg_0/5AF2670C-7B92-6DDE-25B6-2A026E64E6F6.xml</remoteObjectRelativeStorageName>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT COMM_SADER.PROCESS_NO,&lt;br&gt;  COMM_SADER.YEAR,&lt;br&gt;  COMM_SADER.DEPARTMENT_NO,&lt;br&gt;  COMM_SADER.RECIEVED_TO_CODE,&lt;br&gt;  COMM_SADER.SADER_NO,&lt;br&gt;  TO_CHAR(COMM_SADER.SADER_DATE_YY) || &apos;/&apos; ||&lt;br&gt;  LPAD(TO_CHAR(COMM_SADER.SADER_DATE_MM), 2, &apos;0&apos;) || &apos;/&apos; ||&lt;br&gt;  LPAD(TO_CHAR(COMM_SADER.SADER_DATE_DD), 2, &apos;0&apos;) sader_date,&lt;br&gt;  &apos;n&apos;&lt;br&gt;FROM COMM_SADER&lt;br&gt;WHERE COMM_SADER.SADER_DATE_YY &gt; 1429&lt;br&gt;UNION ALL&lt;br&gt;SELECT COMM_SADER1.PROCESS_NO,&lt;br&gt;  COMM_SADER1.YEAR,&lt;br&gt;  COMM_SADER1.DEPARTMENT_NO,&lt;br&gt;  COMM_SADER1.RECIEVED_TO_CODE,&lt;br&gt;  COMM_SADER1.SADER_NO,&lt;br&gt;  TO_CHAR(COMM_SADER1.SADER_DATE_YY) || &apos;/&apos; ||&lt;br&gt;  LPAD(TO_CHAR(COMM_SADER1.SADER_DATE_MM), 2, &apos;0&apos;) || &apos;/&apos; ||&lt;br&gt;  LPAD(TO_CHAR(COMM_SADER1.SADER_DATE_DD), 2, &apos;0&apos;) sader_date,&lt;br&gt;  &apos;s&apos;&lt;br&gt;FROM COMM_SADER1&lt;br&gt;WHERE COMM_SADER1.SADER_DATE_YY &gt; 1429</userDefinedSQL>
+<parsed>true</parsed>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<usedContainers>
+<container containerID="B67109F4-FDBC-1061-94D8-288B92E08BE8"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PROCESS_NO" id="28AE0674-EFE4-62BE-0369-E09A7402566E">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_ALL</sourceObjSchema>
+<sourceObjName>PROCESS_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER (11)</dataType>
+<headerAlias>PROCESS_NO</headerAlias>
+<reference>false</reference>
+<referencedColumn>EBDD05D3-4FD8-6E50-8112-F8161D1F7D69</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="YEAR" id="D823EB4F-6364-4988-C0F0-F614A6958CDA">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_ALL</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER (2)</dataType>
+<headerAlias>YEAR</headerAlias>
+<reference>false</reference>
+<referencedColumn>70F2D985-9E7C-1CEB-BA21-F74A634C8D9E</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPARTMENT_NO" id="D8A9E375-E74A-69E0-4E61-90D2FBD2796E">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_ALL</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<headerAlias>DEPARTMENT_NO</headerAlias>
+<reference>false</reference>
+<referencedColumn>3066FD28-E222-D8E5-30BA-29355F652959</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="RECIEVED_TO_CODE" id="98CF7A9D-1472-860B-A755-DFD1C0C803E9">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_ALL</sourceObjSchema>
+<sourceObjName>RECIEVED_TO_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<headerAlias>RECIEVED_TO_CODE</headerAlias>
+<reference>false</reference>
+<referencedColumn>2C68598B-ECDE-7EB0-46F3-BC54BB8E19FD</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SADER_NO" id="B90830AB-A62B-1010-21ED-F95CD0A38977">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_ALL</sourceObjSchema>
+<sourceObjName>SADER_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER (6)</dataType>
+<headerAlias>SADER_NO</headerAlias>
+<reference>false</reference>
+<referencedColumn>9CF055E8-EC96-F90A-74A1-ED9FB91978C7</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SADER_DATE" id="E5F7362B-C124-0168-42DC-E12DB36BA9B4">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_ALL</sourceObjSchema>
+<sourceObjName>SADER_DATE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>sader_date</alias>
+<dataType>VARCHAR2 (46)</dataType>
+<headerAlias>SADER_DATE</headerAlias>
+<expression>TO_CHAR(COMM_SADER.SADER_DATE_YY) || &apos;/&apos; || LPAD(TO_CHAR(COMM_SADER.SADER_DATE_MM), 2, &apos;0&apos;) || &apos;/&apos; || LPAD(TO_CHAR(COMM_SADER.SADER_DATE_DD), 2, &apos;0&apos;)</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NULL SET GENERATED_553" id="08DC59E0-8576-FAC1-15F7-F9D5131BA728">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<headerAlias>SEC_LEVEL</headerAlias>
+<expression>&apos;n&apos;</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B67109F4-FDBC-1061-94D8-288B92E08BE8">
+<container>true</container>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="F6DF1704-124E-F124-5C6F-6691F05E266C">
+<container>true</container>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="EBDD05D3-4FD8-6E50-8112-F8161D1F7D69">
+<columnName>PROCESS_NO</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="70F2D985-9E7C-1CEB-BA21-F74A634C8D9E">
+<columnName>YEAR</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="3066FD28-E222-D8E5-30BA-29355F652959">
+<columnName>DEPARTMENT_NO</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2C68598B-ECDE-7EB0-46F3-BC54BB8E19FD">
+<columnName>RECIEVED_TO_CODE</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="9CF055E8-EC96-F90A-74A1-ED9FB91978C7">
+<columnName>SADER_NO</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="CBFEEE0E-C3CE-57CB-83D9-72E508A9C952">
+<columnName>SADER_DATE_YY</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C93531BA-F53B-6C80-3D52-EE33EDA23265">
+<columnName>SADER_DATE_MM</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="931567D5-2B63-962C-18F0-4C0DF2E61FA7">
+<columnName>SADER_DATE_DD</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="7379FABD-3338-0C83-3E79-E6CABF1F07B5">
+<columnName>PROCESS_NO</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="62D03E89-2CB1-C54F-82F7-8C84E39816AA">
+<columnName>YEAR</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="926D010D-A1A2-B6A1-D9CF-DF0C2AD6C0D7">
+<columnName>DEPARTMENT_NO</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E3C1C1FB-1188-AFEF-7BF7-7A2DC20C1CBE">
+<columnName>RECIEVED_TO_CODE</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0B0D638A-91E3-0027-5E65-79103E78A2BC">
+<columnName>SADER_NO</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D52EB0E4-0827-9939-0465-0C00604F0BB4">
+<columnName>SADER_DATE_YY</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B64CB319-6767-78CD-82AC-B149CD4F9DE7">
+<columnName>SADER_DATE_MM</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FA28E70D-EB9D-2C60-5B3A-C92CCABB8195">
+<columnName>SADER_DATE_DD</columnName>
+<schema>OSD</schema>
+<tableName>COMM_SADER1</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

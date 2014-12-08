@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="DISP_OFF" directorySegmentName="seg_0" id="CD2F7CCB-6E58-6D80-9DEC-D1641B4B5C8B">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>DISP_OFF</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>BEGIN&lt;br/&gt;&lt;br/&gt;    IF DBMS_REPUTIL.FROM_REMOTE = FALSE THEN&lt;br/&gt;       &lt;br/&gt;            &lt;br/&gt;        if :new.action_code = 32 then&lt;br/&gt;           :new.display := 0;&lt;br/&gt;        end if;&lt;br/&gt;&lt;br/&gt;                       &lt;br/&gt;    end if;&lt;br/&gt;    &lt;br/&gt;END ; </body>
+<triggerTime>BEFORE</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</TriggerOraclev10g>

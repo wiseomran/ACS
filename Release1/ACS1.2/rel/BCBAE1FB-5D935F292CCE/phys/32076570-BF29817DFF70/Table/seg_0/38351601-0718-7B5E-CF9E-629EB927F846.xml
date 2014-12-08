@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="table_template" directorySegmentName="seg_0" id="38351601-0718-7B5E-CF9E-629EB927F846">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 02:12:15 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Omrano" id="693AEBE1-3B98-B809-3C63-8FF4ABF31CA3">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 07:16:44 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="NUMBER_OF_TKRARR" directorySegmentName="seg_0" id="A8EC9D26-56A2-E961-1264-649152CE9C54">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>NUMBER_OF_TKRARR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<source>CREATE OR REPLACE PROCEDURE     OSD.NUMBER_OF_TKRARR IS&lt;br/&gt;    sub    osd.comm_master.subject%type;&lt;br/&gt;    y      osd.comm_master.year%type;&lt;br/&gt;    c_date osd.comm_master.create_date%type;&lt;br/&gt;    cursor c is select count(*)  num,process_no,dept_code &lt;br/&gt;            from osd.comm_all&lt;br/&gt;            where TO_CHAR(in_DATE_YY)||&apos;/&apos;||LPAD(TO_CHAR(in_DATE_MM),2,&apos;0&apos;)||&apos;/&apos;||LPAD(TO_CHAR(in_DATE_DD),2,&apos;0&apos;) between &apos;1435/01/01&apos; and  &apos;1435/12/30&apos;&lt;br/&gt;            group by process_no,dept_code ;&lt;br/&gt;    begin&lt;br/&gt;        EXECUTE IMMEDIATE(&apos;TRUNCATE TABLE osd.NUMBER_OF_TEKRAR&apos;);&lt;br/&gt;        for c1 in c loop&lt;br/&gt;            insert into osd.NUMBER_OF_TEKRAR&lt;br/&gt;            values (c1.num , c1.process_no , c1.dept_code , null,null,null,null,null,null);&lt;br/&gt;        end loop;&lt;br/&gt;    commit;&lt;br/&gt;    end;</source>
+<body>CREATE OR REPLACE PROCEDURE     OSD.NUMBER_OF_TKRARR IS&lt;br/&gt;    sub    osd.comm_master.subject%type;&lt;br/&gt;    y      osd.comm_master.year%type;&lt;br/&gt;    c_date osd.comm_master.create_date%type;&lt;br/&gt;    cursor c is select count(*)  num,process_no,dept_code &lt;br/&gt;            from osd.comm_all&lt;br/&gt;            where TO_CHAR(in_DATE_YY)||&apos;/&apos;||LPAD(TO_CHAR(in_DATE_MM),2,&apos;0&apos;)||&apos;/&apos;||LPAD(TO_CHAR(in_DATE_DD),2,&apos;0&apos;) between &apos;1435/01/01&apos; and  &apos;1435/12/30&apos;&lt;br/&gt;            group by process_no,dept_code ;&lt;br/&gt;    begin&lt;br/&gt;        EXECUTE IMMEDIATE(&apos;TRUNCATE TABLE osd.NUMBER_OF_TEKRAR&apos;);&lt;br/&gt;        for c1 in c loop&lt;br/&gt;            insert into osd.NUMBER_OF_TEKRAR&lt;br/&gt;            values (c1.num , c1.process_no , c1.dept_code , null,null,null,null,null,null);&lt;br/&gt;        end loop;&lt;br/&gt;    commit;&lt;br/&gt;    end;</body>
+</StoredProcedureOraclev10g>

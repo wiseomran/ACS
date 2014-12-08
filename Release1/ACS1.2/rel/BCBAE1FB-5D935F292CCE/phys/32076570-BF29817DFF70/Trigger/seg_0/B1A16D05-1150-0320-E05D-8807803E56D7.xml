@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="INSERT_TIME_SITE_033" directorySegmentName="seg_0" id="B1A16D05-1150-0320-E05D-8807803E56D7">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>INSERT_TIME_SITE_033</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>BEGIN&lt;br/&gt;IF DBMS_REPUTIL.FROM_REMOTE = FALSE THEN&lt;br/&gt;:NEW.TIME := SYSDATE;&lt;br/&gt;SELECT global_name INTO :NEW.SITE FROM GLOBAL_NAME;&lt;br/&gt;END IF;&lt;br/&gt;END;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>C2F2326B-95E8-2165-A46F-E8E5BC5FD40C</table>
+</TriggerOraclev10g>

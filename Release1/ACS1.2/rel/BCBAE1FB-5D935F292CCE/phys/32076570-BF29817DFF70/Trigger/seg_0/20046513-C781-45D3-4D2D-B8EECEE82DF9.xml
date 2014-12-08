@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PROS_STAT_LINKED" directorySegmentName="seg_0" id="20046513-C781-45D3-4D2D-B8EECEE82DF9">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PROS_STAT_LINKED</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT, UPDATE, DELETE</actions>
+<body>DECLARE&lt;br/&gt;&lt;br/&gt;/* &lt;br/&gt;This trigger to log actions into  osd.process_status  table  &lt;br/&gt;*/ &lt;br/&gt;&lt;br/&gt;    count_link number;&lt;br/&gt;    count_proc number;&lt;br/&gt;    &lt;br/&gt;    v_department_no number;&lt;br/&gt;    v_dept_code number;&lt;br/&gt;    &lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    IF DBMS_REPUTIL.FROM_REMOTE = FALSE THEN&lt;br/&gt;         &lt;br/&gt;       if inserting then &lt;br/&gt;           &lt;br/&gt;          begin     &lt;br/&gt;            select department_no, recieved_to_code into v_department_no, v_dept_code&lt;br/&gt;            from osd.comm_sader&lt;br/&gt;            where process_no = :new.linked_code;&lt;br/&gt;          exception&lt;br/&gt;             when no_data_found then null;&lt;br/&gt;          end;&lt;br/&gt;            &lt;br/&gt;          update osd.process_status set&lt;br/&gt;            action_code = 102,  -- ???? ?????  &lt;br/&gt;            in_date = :new.in_date,&lt;br/&gt;            department_no = v_department_no,&lt;br/&gt;            dept_code = v_dept_code,&lt;br/&gt;            sent_user = :new.user_id,&lt;br/&gt;            sader_no = :new.sader_no,&lt;br/&gt;            time_flag = sysdate&lt;br/&gt;          where process_no = :new.process_no;&lt;br/&gt;        &lt;br/&gt;       &lt;br/&gt;       -------------------------------------------------------------------------&lt;br/&gt;       elsif updating then&lt;br/&gt;        &lt;br/&gt;          update osd.process_status set&lt;br/&gt;            action_code = 102,&lt;br/&gt;            in_date = :new.in_date,&lt;br/&gt;            department_no = v_department_no,&lt;br/&gt;            dept_code = v_dept_code,&lt;br/&gt;            sent_user = :new.user_id,&lt;br/&gt;            sader_no = :new.sader_no,&lt;br/&gt;            time_flag = sysdate&lt;br/&gt;          where process_no = :old.process_no;&lt;br/&gt;&lt;br/&gt;       end if;   &lt;br/&gt;&lt;br/&gt;    end if;&lt;br/&gt;     &lt;br/&gt;exception&lt;br/&gt;    when no_data_found then null;&lt;br/&gt;    &lt;br/&gt;END; </body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>AC574FD5-30D6-201A-8357-BB7EF3A769BE</table>
+</TriggerOraclev10g>

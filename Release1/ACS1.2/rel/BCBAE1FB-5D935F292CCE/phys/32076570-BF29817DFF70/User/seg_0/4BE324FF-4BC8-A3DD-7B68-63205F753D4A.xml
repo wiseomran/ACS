@@ -1,0 +1,248 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="YAHYA" directorySegmentName="seg_0" id="4BE324FF-4BC8-A3DD-7B68-63205F753D4A">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjName>YAHYA</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions10" id="74E74507-18B0-BE97-AFFF-87AB2E9C4F5E">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>32CE737E-B1F7-30BF-9A1E-8B2DD8C09CB6</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions20" id="681BFE2E-CB89-C3EA-0DD2-B40C29ED75EF">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>908B8933-85B9-6665-4DB1-B15420457E69</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions30" id="4A710137-C2B9-04D2-698E-82010519E229">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>40147C7E-3502-0395-60ED-D9A6484B5359</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions40" id="4388229F-D6C2-75A5-6598-74120D18595F">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>A122E7A2-F4E4-E004-320E-A3D73C69A32B</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions50" id="94A3853B-8682-AEDF-771C-40D5FC4679FE">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>879FA997-E454-86C8-5CA5-3598E1FF1E6F</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions61" id="1DC5BC67-E8F1-1DDB-67D6-C2A6D20FD277">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>00DC0E85-2C37-8450-CA15-43D59602CFC4</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions80" id="C6304605-D315-3EAF-B276-29EEDB9F20EF">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>64DBC6E5-097C-8856-2E67-AE2B79EC45B6</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions92" id="A508E02B-A02D-D29C-2C92-BA1A027D766F">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>965CB31A-1597-B0A4-E8E3-52FCD080D48B</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions100" id="F192397A-F430-A806-B1B5-D2F7BA81280C">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>B4EA3449-3711-3C2F-C855-555EE79B87E3</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions116" id="310F76C0-5035-92D7-1FDD-08AA609BFAB6">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>B67109F4-FDBC-1061-94D8-288B92E08BE8</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions123" id="AFA1B38E-EA56-21D7-DE77-F4FDDF01B26A">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>F6DF1704-124E-F124-5C6F-6691F05E266C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions134" id="05D3AAFE-97C5-AA8E-1AE9-60AA7200226A">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>9EF873FC-FFD0-10E9-9312-E920B9BA05DE</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions141" id="AF673029-C08F-CD7E-8250-274B2FB10335">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>99212A4A-A57C-1A2C-3873-82AB5023DC21</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions152" id="5A9A0EB0-4E47-0B8F-B468-84EB86C82B45">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>6E1F1189-49E6-0A39-E399-0942E1A3CCD4</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions163" id="B9559087-094E-3E0D-7630-01377F378B61">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>30264260-900C-69B0-638D-B1A086C646DC</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions173" id="14842ED8-9BB6-CE7D-28CB-08E6BED879A2">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>532EF75A-1BCC-17C5-B773-AD10DFEFBFEF</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions185" id="1C73C38C-D0FF-19DE-EDC6-E8D8B6F6E187">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>89DD7ADD-9CDB-9103-A49C-5D8774A2B2FD</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions201" id="D6CDBC2F-5C0F-77EE-6110-3EB7833216C0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>D648560E-249A-37BB-5B6E-18040816B1F4</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions212" id="6FE84269-8D4D-3AA9-40D8-DFB076213F85">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>F1FE03AA-40CF-6F96-69FA-48D5506C1865</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions224" id="D3CE4827-8E3D-5FC9-08D9-BA6562950AA0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>AC574FD5-30D6-201A-8357-BB7EF3A769BE</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions231" id="18C3EDDC-7F41-A904-E202-6BFA61335610">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>D8A986F8-3130-22D8-A1C1-F9B86C0B731A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions239" id="0D5073CF-615C-2033-566B-448AA90B2A88">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>16C1AA5D-57F9-4DDB-E7CD-101AF2367C72</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions246" id="1FD48F11-ACC3-C84E-A4B0-A70ED4B51FB5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>A3E6F1C2-B97A-CAAF-E35D-6645C7071750</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions256" id="2FE2C766-FD08-E7BC-C7EB-52CFB2C20C1B">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>AC2E77CE-7DF6-3CE2-00D9-0D12AA0B25B2</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions268" id="52F6E19E-312A-3F97-1D05-C331B425F152">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>7973D418-CD3F-BDD5-FF42-B9D0AF601CC5</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions281" id="40FC5D51-8540-A119-CACC-6441CE5486C5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>C2F2326B-95E8-2165-A46F-E8E5BC5FD40C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions291" id="37B4644E-AA8A-882B-6E2B-8E867F574C68">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>56A6C5BB-5993-4B49-91E3-5789FF03AC0E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions301" id="6AD5D8E1-C638-4E81-52BF-9A548F4E840F">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>CE3290AB-0DBE-CAB5-3F33-C621870259D3</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions315" id="BE5B464C-02B6-6B87-5444-03EB87DE59EC">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions326" id="555277E3-0EC5-2C88-ECFB-E0BFE8E88886">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>569B1F7A-8127-B788-894D-7166B5A5093C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions341" id="9CB1DE6D-3161-2098-5EDA-0C4EB4D7AAC2">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>F6D166E1-4832-47E1-AD77-B79B91523DD9</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions350" id="FEC46782-2AB3-329B-41FB-4C96359001AA">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>9CB002DC-AC62-B769-0BC6-66F2439090F2</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions364" id="FEFD08A2-2FDA-0807-6E3F-691707276DD4">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>2353E48C-C487-1755-70C0-AA345A2DEF40</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions372" id="2BF40D5F-BA28-D16D-E7CC-ACBD128F2BD3">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>C3B44AAD-FADE-039E-0EA0-44AABF8E39CB</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

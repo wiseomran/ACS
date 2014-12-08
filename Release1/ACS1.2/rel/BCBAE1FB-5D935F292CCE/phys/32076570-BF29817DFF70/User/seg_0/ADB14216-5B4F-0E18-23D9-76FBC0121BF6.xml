@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="ARCH" directorySegmentName="seg_0" id="ADB14216-5B4F-0E18-23D9-76FBC0121BF6">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjName>ARCH</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions192" id="2ED87A2B-96C0-14EE-ECAF-93633B5F1D26">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>ALTER, DELETE, INDEX, INSERT, SELECT, UPDATE, REFERENCES, ON COMMIT REFRESH, QUERY REWRITE, DEBUG, FLASHBACK</privileges>
+<table>0F4282B5-B2A6-343E-D695-E3B3EF3F79A9</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions215" id="FEBD4B77-8117-1598-A019-DBE1CB4787D9">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>AC574FD5-30D6-201A-8357-BB7EF3A769BE</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions309" id="345D4379-A92D-5AAE-8A3D-C56A92CB17AF">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<privileges>UPDATE</privileges>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

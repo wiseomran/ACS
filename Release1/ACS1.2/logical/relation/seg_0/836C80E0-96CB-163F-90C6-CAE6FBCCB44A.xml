@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROCESS_STATUS_FK" directorySegmentName="seg_0" id="836C80E0-96CB-163F-90C6-CAE6FBCCB44A">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<generatorID>DEEF2DCF-01AB-3D71-3044-55BC278E67B9</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<sourcePk>2178CABC-247E-6045-B57F-F6C7098D1CC2</sourcePk>
+<dominantRole>9BC63B6E-B627-814E-E8F7-8B10289E9567</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BC63B6E-B627-814E-E8F7-8B10289E9567</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>36C9EE22-CC4C-8052-C03B-565F390B87DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

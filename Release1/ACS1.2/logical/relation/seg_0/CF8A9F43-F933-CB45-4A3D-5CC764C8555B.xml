@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMM_SADER_COMM_MASTER_FK" directorySegmentName="seg_0" id="CF8A9F43-F933-CB45-4A3D-5CC764C8555B">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<generatorID>6DE08B9E-588E-F1BE-B2E5-26E7D7EC0547</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<sourcePk>2178CABC-247E-6045-B57F-F6C7098D1CC2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BC63B6E-B627-814E-E8F7-8B10289E9567</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78A0A1B6-EF76-6B2D-ABD4-A315A5522CC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

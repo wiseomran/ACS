@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="IVR_COMM_MASTER" directorySegmentName="seg_0" id="1311EF46-8DC6-F2C1-386F-8C5D826AA93C">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>IVR_COMM_MASTER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT, UPDATE, DELETE</actions>
+<body>DECLARE&lt;br/&gt;tmpVar NUMBER;&lt;br/&gt;/******************************************************************************&lt;br/&gt;   NAME:       &lt;br/&gt;   PURPOSE:    &lt;br/&gt;&lt;br/&gt;   REVISIONS:&lt;br/&gt;   Ver        Date        Author           Description&lt;br/&gt;   ---------  ----------  ---------------  ------------------------------------&lt;br/&gt;   1.0        20/03/2007             1. Created this trigger.&lt;br/&gt;&lt;br/&gt;   NOTES:&lt;br/&gt;&lt;br/&gt;   Automatically available Auto Replace Keywords:&lt;br/&gt;      Object Name:     &lt;br/&gt;      Sysdate:         20/03/2007&lt;br/&gt;      Date and Time:   20/03/2007, 02:18:10 ?, and 20/03/2007 02:18:10 ?&lt;br/&gt;      Username:         (set in TOAD Options, Proc Templates)&lt;br/&gt;      Table Name:       (set in the &quot;New PL/SQL Object&quot; dialog)&lt;br/&gt;      Trigger Options:  (set in the &quot;New PL/SQL Object&quot; dialog)&lt;br/&gt;******************************************************************************/&lt;br/&gt;BEGIN&lt;br/&gt;   if inserting then &lt;br/&gt;   	  insert into &quot;OSD&quot;.&quot;OSD_IVR&quot;&lt;br/&gt;	  (process_no,process_year,process_flag,in_date)&lt;br/&gt;	  values&lt;br/&gt;	  (:new.process_no,:new.year,1,:new.in_date_yy||&apos;/&apos;||lpad(to_char(:new.in_date_mm),2,&apos;0&apos;)||&apos;/&apos;||lpad(to_char(:new.in_date_dd),2,&apos;0&apos;));&lt;br/&gt;	 elsif deleting then &lt;br/&gt;	  delete &quot;OSD&quot;.&quot;OSD_IVR&quot;&lt;br/&gt;	  where process_no = :old.process_no&lt;br/&gt;	  and    process_year = :old.year;&lt;br/&gt;	 end if; &lt;br/&gt;END ;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>64DBC6E5-097C-8856-2E67-AE2B79EC45B6</table>
+</TriggerOraclev10g>

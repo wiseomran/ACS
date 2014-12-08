@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="825A7D5C-A93C-73BB-9728-12D177CD0FFD" name="COMM PKG">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>CB6B7A27-1FA3-AD0B-5844-E2FB83CA9B60</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PKG ID" id="4A9C716B-3DA1-9A82-25B7-A706275746DD">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك افبا�ج -�رٍد</commentInRDBMS>
+<generatorID>18A4095D-A596-6E64-9D11-A3AD7781D3EE</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="PROCESS NO" id="D363A51E-E936-7182-59F0-3635809BEED5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك اف�ٍد</commentInRDBMS>
+<generatorID>2C9115E8-4306-4330-E113-4020E75DA92E</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="PKG NO" id="154AD7DE-AE19-E33E-9094-303EA27B9665">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك افتسفسف</commentInRDBMS>
+<generatorID>203EA07B-E967-6C16-7199-446374FCF7A1</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="PKG TYPE" id="C9558246-D863-57E3-B71D-BA8CEDD1E6F1">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>لنغ افكر��- 1 ظرد 2- شٍ�</commentInRDBMS>
+<generatorID>C8CDF0EA-0A93-947A-A522-73D37854A9E1</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="DESCRIPTION" id="248373A2-642E-1BA7-CA2F-4A3E73A83CEB">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افنص�</commentInRDBMS>
+<generatorID>F3AED7B2-022E-8DE2-15FF-5367F8147348</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="SADER NO" id="DBEE3CE9-537D-9F2C-EBFF-0E6EE0799AA4">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك افصادر</commentInRDBMS>
+<generatorID>DDF2C5BF-D136-8D3B-43CF-6FFAFB1C9EA1</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="CREATE DATE" id="E04AB4E1-C6D2-DD58-92BD-34BABDABDB70">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>تارٍخ افإلشاء</commentInRDBMS>
+<generatorID>9E655809-6A48-F834-82C8-7C68E9DE9418</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+</Attribute>
+<Attribute name="CREATE USER" id="3AC71944-B402-5386-1CCE-66BF8BCD7735">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افكستخدك افكلشئ</commentInRDBMS>
+<generatorID>EBAEFD53-394E-472C-DED1-259B5DE8A153</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="UPDATE DATE" id="BEE786F6-65E7-9E7C-23D4-F3DF1A9CA3C2">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>تارٍخ افتغدٍف</commentInRDBMS>
+<generatorID>18921AB5-F87D-F78A-8BFE-B6DE19FB2D79</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute name="UPDATE USER" id="2F751BE2-27B4-EE23-3FFB-95779FA05767">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افكستخدك افكغدف</commentInRDBMS>
+<generatorID>F334A402-F105-7779-B9FD-2A69CC0553BB</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4CDDADF6-9088-E229-6A37-13DFB8954113" name="{entity} PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>7398D3DD-86A7-5353-18EA-BF4EE12C969B</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D363A51E-E936-7182-59F0-3635809BEED5</attributeRef>
+<attributeRef>154AD7DE-AE19-E33E-9094-303EA27B9665</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="FFF58631-F8F9-5C57-ED65-BCC4F4A41FAF" name="COMM PKG UNQ">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>72BA8148-C821-4F40-F141-AC4AEE67DCAF</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>4A9C716B-3DA1-9A82-25B7-A706275746DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

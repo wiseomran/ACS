@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PKG_DTL_TRIG" directorySegmentName="seg_0" id="2177FE41-6D77-444D-78FA-A14A1A03DB3A">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PKG_DTL_TRIG</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT</actions>
+<body>DECLARE&lt;br/&gt;    V_to_dept    NUMBER;&lt;br/&gt;    v_from_dept  NUMBER;&lt;br/&gt;    v_action     NUMBER;&lt;br/&gt;    v_dtl_id   number;&lt;br/&gt;BEGIN&lt;br/&gt;   	      &lt;br/&gt;    select osd.pkg_dtl_seq.nextval &lt;br/&gt;    into  v_dtl_id&lt;br/&gt;    from dual;&lt;br/&gt;    &lt;br/&gt;&lt;br/&gt;    select department_no, dept_code, action_code&lt;br/&gt;    into v_from_dept,     v_to_dept, v_action&lt;br/&gt;    from osd.comm_master&lt;br/&gt;    where process_no = substr(:new.pkg_id,1,11);&lt;br/&gt;    &lt;br/&gt;    insert into osd.COMM_PKG_DTL&lt;br/&gt;                     (&lt;br/&gt;                        pkg_dtl_id,&lt;br/&gt;                        pkg_id, &lt;br/&gt;                        serial, &lt;br/&gt;                        from_dept, &lt;br/&gt;                        to_dept, &lt;br/&gt;                        action_code, &lt;br/&gt;                        create_user&lt;br/&gt;                        )&lt;br/&gt;        values (&lt;br/&gt;                         v_dtl_id,&lt;br/&gt;                        :new.pkg_id,&lt;br/&gt;                        :new.pkg_no,&lt;br/&gt;                         v_from_dept,&lt;br/&gt;                         v_to_dept,&lt;br/&gt;                         v_action,&lt;br/&gt;                        :new.create_user&lt;br/&gt;                        );&lt;br/&gt;	exception&lt;br/&gt;		when others then&lt;br/&gt;            raise;&lt;br/&gt;END; </body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>9A0DABFE-5DF9-12EF-CE36-A1D7F761546F</table>
+</TriggerOraclev10g>

@@ -1,0 +1,391 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99212A4A-A57C-1A2C-3873-82AB5023DC21" name="COMM_SADER_DETAIL1">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_SADER_DETAIL1</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<commentInRDBMS>?????? ?????</commentInRDBMS>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteDesignID>FC08FCB9-B251-5E59-1CB2-BB8A37701BF3</remoteDesignID>
+<remoteModelID>C4955F53-AD0F-2F13-12F5-4A3D5452E66A</remoteModelID>
+<remoteObjectID>4D512C86-D4EE-5767-DE94-C195ED546585</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C4955F53-4A3D5452E66A\table/seg_0/4D512C86-D4EE-5767-DE94-C195ED546585.xml</remoteObjectRelativeStorageName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROCESS_NO" id="4CDBFA58-E567-7793-1276-46E043DC0285">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>PROCESS_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>86AB3B3E-9A4D-D3B5-A70C-3C51EB859414</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<delegate>7379FABD-3338-0C83-3E79-E6CABF1F07B5</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9895F1B0-C4D0-2B8D-A439-D3D40CED08EE" referredColumn="7379FABD-3338-0C83-3E79-E6CABF1F07B5"/>
+</associations>
+</Column>
+<Column name="YEAR" id="6612C2C9-35F0-0E07-31A3-37A28C41CA0F">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>0C5A5E12-6173-76F6-EF83-FADB70616EF3</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>62D03E89-2CB1-C54F-82F7-8C84E39816AA</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9895F1B0-C4D0-2B8D-A439-D3D40CED08EE" referredColumn="62D03E89-2CB1-C54F-82F7-8C84E39816AA"/>
+</associations>
+</Column>
+<Column name="SADER_NO" id="B59EFD8B-BC04-CFB7-4D8B-C7CF41079AD8">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>SADER_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>14C097AF-CEE5-3137-CA0F-35A55722AF73</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<delegate>0B0D638A-91E3-0027-5E65-79103E78A2BC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9895F1B0-C4D0-2B8D-A439-D3D40CED08EE" referredColumn="0B0D638A-91E3-0027-5E65-79103E78A2BC"/>
+</associations>
+</Column>
+<Column name="YEAR_SADER" id="588DF182-E013-D59D-4FA5-41BE953700B7">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>YEAR_SADER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>7A46A55D-CEC0-4FBB-7F29-9AA5A92B7807</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<delegate>3AE55760-374E-CCA7-E284-8EE578F5779E</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9895F1B0-C4D0-2B8D-A439-D3D40CED08EE" referredColumn="3AE55760-374E-CCA7-E284-8EE578F5779E"/>
+</associations>
+</Column>
+<Column name="SADER_TO" id="B746328E-F449-C2E0-5580-73AB90F5578D">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>SADER_TO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>F3A0F757-742B-B7A2-17A0-0E7C238FD2DA</remoteObjectID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SADER_DIV" id="A0E4BED7-1494-8F19-8FFF-DC5FD99E637B">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>SADER_DIV</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>0EB230AB-8DD2-462C-DB36-951821BD10C9</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORGINAL_FLAG" id="4CE47066-C2E7-93F2-5318-5FB500A9F002">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>ORGINAL_FLAG</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>652C710D-0A3F-9396-DF68-B56DBF030E6B</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IN_OUT_CODE" id="C1D034B0-A8A2-D0E9-159A-752B8F8A2126">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>IN_OUT_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>6BB203C4-1C7F-0B8F-9848-807A40102B08</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECIEVED_TO" id="FD6FCF5E-64C3-08F4-3AFE-C275C7FD2E17">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>RECIEVED_TO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>E1F7C678-0F48-8BCE-B4C9-7BA82DE6892D</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REQUEST_STATUS" id="D346C4C6-0BE2-6380-AF38-17BC3A3DB874">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>REQUEST_STATUS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>6654FD80-2111-72C6-7553-3C986AA00A3F</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_RANGE" id="31C4E5FE-9914-B436-4DDD-A73959CC02D6">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>ORDER_RANGE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>D060E65E-8376-BDFE-9E3D-DE18054B858C</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TO_TYPE" id="385DE4C0-1323-1A91-E9EF-3350669163CD">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>TO_TYPE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>82B79A56-3C43-1993-3214-D62A9881A240</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="FAB979E2-DD43-865F-9DCA-5B80949C9237">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>TIME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>C8A7E917-C240-61A8-6A29-CD1D16801C66</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE" id="CC6A7B5F-2BFD-34BD-A52B-46BDA913BF50">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>SITE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>7284B77A-D760-CB5B-F5CA-410FC150AD2F</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOMPANIED" id="403F208D-3A0E-A968-6197-4262ADE5CF90">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>ACCOMPANIED</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>43D83C15-68A7-B4B8-BCDB-673D525E11BC</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORIGINAL" id="806580F3-6087-12AA-E3DA-24058AAD786B">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>ORIGINAL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>45923A9B-B1DF-47E6-96D5-A9D1DC391DB9</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATTACHMENT" id="DA6C2D2B-0A18-EE75-F823-821DAFC45798">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>ATTACHMENT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>6DC3650E-E43F-9D2B-6F9A-5E6477B5A35C</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_FLAG" id="7666D845-1E5B-94B9-7022-3DF3BB63B1FF">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_SADER_DETAIL1</sourceObjSchema>
+<sourceObjName>TRANS_FLAG</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>83E3DA01-23C0-C51C-F6BF-C77C6821DC0E</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<defaultValue>21</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Omrano" id="3A45B58D-61AA-46DF-AB33-0693E10C7B2F">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 02:09:54 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>FBB1D2A9-1144-3AB6-45B6-BB9E84127E7A</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<nameFixed>true</nameFixed>
+<propertyMap>
+<property name="ctemplateID" value="693AEBE1-3B98-B809-3C63-8FF4ABF31CA3"/>
+</propertyMap>
+</Column>
+<Column name="Column_2" id="99072FDE-EB82-A3F6-FA87-80467F315C6C">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 02:09:54 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>B7ED3740-415F-912D-EAA1-95CDEEE859E7</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="06AF3308-8DFE-88C1-8CC2-CF94563A2CB7"/>
+</propertyMap>
+</Column>
+<Column name="Column_3" id="60E8BD8D-2B5D-012F-870F-F7ACF17CA41D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 02:13:20 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>89AC6B02-4E32-44CD-5E99-679D6CE9E49C</remoteObjectID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="D83C7479-BFEE-12F2-3C64-0EA382346975"/>
+</propertyMap>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ADEE6FB-DD88-78E6-2DFB-0710DF809E08" name="PK_COMM_SADER_DETAIL1">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_COMM_SADER_DETAIL1</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:54 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>654E984B-9C1F-A36C-C2E4-BABC12083633</remoteObjectID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CDBFA58-E567-7793-1276-46E043DC0285"/>
+<colUsage columnID="6612C2C9-35F0-0E07-31A3-37A28C41CA0F"/>
+<colUsage columnID="B59EFD8B-BC04-CFB7-4D8B-C7CF41079AD8"/>
+<colUsage columnID="588DF182-E013-D59D-4FA5-41BE953700B7"/>
+<colUsage columnID="B746328E-F449-C2E0-5580-73AB90F5578D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCB42575-1148-3105-47A5-6ECC028D59D6" name="PK_COMM_SADER_DETAIL1">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_COMM_SADER_DETAIL1</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteObjectID>EF100BA3-7A48-7872-39C1-B2FD1C28A061</remoteObjectID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CDBFA58-E567-7793-1276-46E043DC0285"/>
+<colUsage columnID="6612C2C9-35F0-0E07-31A3-37A28C41CA0F"/>
+<colUsage columnID="B59EFD8B-BC04-CFB7-4D8B-C7CF41079AD8"/>
+<colUsage columnID="588DF182-E013-D59D-4FA5-41BE953700B7"/>
+<colUsage columnID="B746328E-F449-C2E0-5580-73AB90F5578D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C11B238-68A4-E991-A221-1F55F03C4695" name="FK_PROCESS_YEAR_SADER_NO">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="4CDBFA58-E567-7793-1276-46E043DC0285"/>
+<colUsage columnID="6612C2C9-35F0-0E07-31A3-37A28C41CA0F"/>
+<colUsage columnID="B59EFD8B-BC04-CFB7-4D8B-C7CF41079AD8"/>
+<colUsage columnID="588DF182-E013-D59D-4FA5-41BE953700B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

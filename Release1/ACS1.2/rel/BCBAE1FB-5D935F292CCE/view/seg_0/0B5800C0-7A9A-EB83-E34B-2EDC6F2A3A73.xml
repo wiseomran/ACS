@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="0B5800C0-7A9A-EB83-E34B-2EDC6F2A3A73" name="PROCESS_DELAYED">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PROCESS_DELAYED</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<remoteModelID>C4955F53-AD0F-2F13-12F5-4A3D5452E66A</remoteModelID>
+<remoteObjectID>24434472-7007-A441-2780-05DBAF778F7D</remoteObjectID>
+<remoteObjectRelativeStorageName>\rel\C4955F53-4A3D5452E66A\view/seg_0/24434472-7007-A441-2780-05DBAF778F7D.xml</remoteObjectRelativeStorageName>
+<userDefined>true</userDefined>
+<userDefinedSQL>select  year,process_no, in_date, action_code, p.department_no, current_dept, sent_user, rec_user, rec_date, log_count, d.sub_group, p.location&lt;br/&gt;from osd.process_status p, main.departments d&lt;br/&gt;where p.current_dept = d.department_no &lt;br/&gt;and nvl(sader_no,0) = 0 &lt;br/&gt;and p.action_code not in (select action_code from main.not_delay_action)&lt;br/&gt;and dept_code  not in(&apos;2010300000&apos;,&apos;2010302400&apos;,&apos;2010302000&apos;)&lt;br/&gt;and current_dept  not in(&apos;2010300000&apos;,&apos;2010302400&apos;,&apos;2010302000&apos;)  &lt;br/&gt;and p.display = 1&lt;br/&gt;and p.location = 1&lt;br/&gt;and year &gt;= 30&lt;br/&gt;order by  current_dept, in_date</userDefinedSQL>
+<parsed>true</parsed>
+<incorrectSQL>true</incorrectSQL>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<usedContainers>
+<container alias="p" containerID="B77AE2B6-9702-2C8C-88A0-0D0B75074BE8"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_1" id="26335224-FCDE-57CC-5D8F-FB40336205AE">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>year</alias>
+<dataType>NUMBER (2)</dataType>
+<expression>year</expression>
+<reference>false</reference>
+<referencedColumn>934C3813-2957-45FC-4F98-6CEB830B7AF4</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_2" id="D4A027DA-7723-51C7-7A7A-B427228444EB">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>process_no</alias>
+<dataType>NUMBER (11)</dataType>
+<expression>process_no</expression>
+<reference>false</reference>
+<referencedColumn>6C924FB9-6F2B-4F0B-35E4-2B593EA59432</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_3" id="E95568B6-E33A-C35F-DDF5-145054FC08B2">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>in_date</alias>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<expression>in_date</expression>
+<reference>false</reference>
+<referencedColumn>38CCAB83-58B9-603D-90B3-24D66321C9FA</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_4" id="76086EFF-A8AF-6608-1945-55009F1F248C">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>action_code</alias>
+<dataType>NUMBER (4)</dataType>
+<expression>action_code</expression>
+<reference>false</reference>
+<referencedColumn>4E188410-AF64-DD03-C330-577629670005</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_5" id="648CEB59-9285-7125-FA50-29D4FAAA6CEA">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>department_no</alias>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<expression>department_no</expression>
+<reference>false</reference>
+<referencedColumn>0EC48E0C-CAA5-853E-9AF4-2E39AF66D168</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+<tableAlias>p</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_6" id="57D0E384-2441-DB3B-47EC-36BB9F3D2402">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>current_dept</alias>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<expression>current_dept</expression>
+<reference>false</reference>
+<referencedColumn>86B1E584-BE61-5F8D-CA4C-5F3EB5B67483</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_7" id="78EADB3C-146F-BF60-36B1-8C0020114764">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>sent_user</alias>
+<dataType>NUMBER (7)</dataType>
+<expression>sent_user</expression>
+<reference>false</reference>
+<referencedColumn>DEE30EA2-3210-0B05-E829-A4ACF9F8F935</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_8" id="3121C197-8C2A-C9AA-3A23-04E9B5203AE9">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>rec_user</alias>
+<dataType>NUMBER (7)</dataType>
+<expression>rec_user</expression>
+<reference>false</reference>
+<referencedColumn>1074B99B-9D03-DB9D-7798-F247BFB2D40E</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_9" id="F4D7A0E3-A063-353F-6154-31C02364DEB5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>rec_date</alias>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<expression>rec_date</expression>
+<reference>false</reference>
+<referencedColumn>3B4ACFED-2DC0-C8D9-7DDA-D3D4E791BF22</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_10" id="08B850A9-C107-E0A2-33F5-D96FE58FF7FA">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>log_count</alias>
+<dataType>NUMBER</dataType>
+<expression>log_count</expression>
+<reference>false</reference>
+<referencedColumn>30D3D913-E790-1A15-B123-C633589314DF</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_11" id="9FB2476B-E327-417D-84E5-A1FD2BA3979A">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>sub_group</alias>
+<expression>sub_group</expression>
+<reference>false</reference>
+<tableAlias>d</tableAlias>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COL_12" id="BB7F1874-555D-BD7C-5AFC-6DC3E5453CD6">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:56 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>location</alias>
+<dataType>NUMBER (3)</dataType>
+<expression>location</expression>
+<reference>false</reference>
+<referencedColumn>945AA247-C50F-BC73-8A20-3DA966563D36</referencedColumn>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+<tableAlias>p</tableAlias>
+</viewElement>
+</viewElements>
+</TableView>

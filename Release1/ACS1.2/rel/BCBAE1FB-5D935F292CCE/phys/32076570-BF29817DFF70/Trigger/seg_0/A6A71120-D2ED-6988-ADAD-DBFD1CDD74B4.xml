@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="INTERNET_COMM_MASTER" directorySegmentName="seg_0" id="A6A71120-D2ED-6988-ADAD-DBFD1CDD74B4">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>INTERNET_COMM_MASTER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT</actions>
+<body>declare&lt;br/&gt; v_count number;&lt;br/&gt; v_id    number;&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;  IF DBMS_REPUTIL.FROM_REMOTE = FALSE THEN&lt;br/&gt;  &lt;br/&gt;     IF INSERTING then &lt;br/&gt;     &lt;br/&gt;        if :new.tellegram_type in (18) and :new.tellegram_no &gt; 0 then&lt;br/&gt;           select count(*) into v_count&lt;br/&gt;           from   p4.internet_data &lt;br/&gt;           where  id = :new.tellegram_no;&lt;br/&gt;           if v_count &gt; 0 then &lt;br/&gt;              update p4.internet_data&lt;br/&gt;              set process_no = :new.process_no,year = :new.year&lt;br/&gt;              where  id = :new.tellegram_no;&lt;br/&gt;           end if;&lt;br/&gt;        &lt;br/&gt;        elsif :new.mobile_no is not null then&lt;br/&gt;           &lt;br/&gt;           lock table p9.mailer  IN   EXCLUSIVE  MODE;&lt;br/&gt;           &lt;br/&gt;           select max(id)+1 into v_id&lt;br/&gt;           from p9.mailer;&lt;br/&gt;           &lt;br/&gt;           insert into p9.mailer (id,&lt;br/&gt;                                  m_date, &lt;br/&gt;                                  employee_no,  &lt;br/&gt;                                  type,   &lt;br/&gt;                                  message,   &lt;br/&gt;                                  status, &lt;br/&gt;                                  mobile_no)&lt;br/&gt;                                  &lt;br/&gt;                         values  (v_id, &lt;br/&gt;                                  sysdate, &lt;br/&gt;                                  :new.user_id,&lt;br/&gt;                                  &apos;notify_w&apos;,&lt;br/&gt;                                  &apos; ??? ??????? ??? ?? ????? ??????? ???? &apos; ||:new.process_no || &apos; ??????? ???????? ?? ???? ???? ??????? www.makkah.gov.sa &apos;||&apos;??? ???? ?? ??? ??????? ???? ???? ???? ?????? ???????? ??? ?????? ????? ?????? ???  0126652242 ??  0126653323  &apos;,&lt;br/&gt;                                  0,&lt;br/&gt;                                  &apos;966&apos;||to_number(:new.mobile_no));&lt;br/&gt;                        &lt;br/&gt;        end if;&lt;br/&gt;         &lt;br/&gt;     end if;&lt;br/&gt;      &lt;br/&gt;  end if;&lt;br/&gt;  &lt;br/&gt;END; </body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>64DBC6E5-097C-8856-2E67-AE2B79EC45B6</table>
+</TriggerOraclev10g>

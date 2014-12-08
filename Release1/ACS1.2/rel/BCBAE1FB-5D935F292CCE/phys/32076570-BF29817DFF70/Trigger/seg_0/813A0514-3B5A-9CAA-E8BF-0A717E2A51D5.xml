@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="COMM_MASTER_PRINT" directorySegmentName="seg_0" id="813A0514-3B5A-9CAA-E8BF-0A717E2A51D5">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_MASTER_PRINT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT</actions>
+<body>DECLARE&lt;br/&gt;V_SERIAL         NUMBER;&lt;br/&gt;&lt;br/&gt;BEGIN&lt;br/&gt;   SELECT NVL(COUNT(*),0)+1 INTO V_SERIAL FROM OSD.COMM_PRINT_LOCKUP&lt;br/&gt;   WHERE  DEPT_CODE =:NEW.DEPT_CODE&lt;br/&gt;   AND IN_DATE_DD =:NEW.IN_DATE_DD&lt;br/&gt;   AND IN_DATE_MM =:NEW.IN_DATE_MM&lt;br/&gt;   AND IN_DATE_YY =:NEW.IN_DATE_YY;&lt;br/&gt;   IF :NEW.DEPARTMENT_NO =&apos;2010208620&apos; THEN&lt;br/&gt;      insert into COMM_PRINT_LOCKUP&lt;br/&gt;      (SERIAL_NO,PROCESS_NO, IN_DATE_DD, IN_DATE_MM, IN_DATE_YY,  DEPT_CODE, DEPARTMENT_NO)&lt;br/&gt;      VALUES&lt;br/&gt;        (V_SERIAL, :NEW.PROCESS_NO, :NEW.IN_DATE_DD, :NEW.IN_DATE_MM, :NEW.IN_DATE_YY, :NEW.DEPT_CODE,:NEW.DEPARTMENT_NO) ;&lt;br/&gt;    END IF;&lt;br/&gt;    &lt;br/&gt;   &lt;br/&gt;   EXCEPTION&lt;br/&gt;     WHEN OTHERS THEN&lt;br/&gt;       -- Consider logging the error and then re-raise&lt;br/&gt;       RAISE;&lt;br/&gt;END ; </body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>64DBC6E5-097C-8856-2E67-AE2B79EC45B6</table>
+</TriggerOraclev10g>

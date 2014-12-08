@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="FOLLOWUP_SADER" directorySegmentName="seg_0" id="889A6DA5-FEE3-B6FC-85E3-C3F61D9F3A91">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>FOLLOWUP_SADER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>declare&lt;br/&gt;    v_count number;&lt;br/&gt;begin&lt;br/&gt;    &lt;br/&gt;    select count(*) into v_count&lt;br/&gt;    from osd.follow_up&lt;br/&gt;    where process_no = :new.process_no&lt;br/&gt;    and year = :new.year;&lt;br/&gt;        &lt;br/&gt;    if v_count &gt; 0 then&lt;br/&gt;             &lt;br/&gt;     update osd.follow_up&lt;br/&gt;     set sader_no = :new.sader_no ,&lt;br/&gt;         sader_year = :new.year_sader &lt;br/&gt;     where process_no = :new.process_no&lt;br/&gt;     and year = :new.year;&lt;br/&gt;             &lt;br/&gt;    end if;&lt;br/&gt;        &lt;br/&gt;end; </body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>B67109F4-FDBC-1061-94D8-288B92E08BE8</table>
+</TriggerOraclev10g>
