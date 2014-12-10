@@ -185,6 +185,28 @@
 <dataTypePrecision>1</dataTypePrecision>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Column_1" id="6628A32F-17BE-18D6-C559-3276423CA4C5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="EFD49FCB-7071-D3EB-9795-709897858CB9"/>
+</propertyMap>
+</Column>
+<Column name="Column_2" id="27918D02-3EE1-C2E2-EEC9-99A785CC31A1">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="E2B9FCC9-DAFB-6A8E-5641-BBA1BF193B71"/>
+</propertyMap>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CB04FC05-F723-C8C5-3DC8-08FD10B5097E" name="PK_COMM_USER">

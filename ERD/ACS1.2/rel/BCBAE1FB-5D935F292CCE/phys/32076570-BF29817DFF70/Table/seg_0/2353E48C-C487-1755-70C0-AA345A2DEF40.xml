@@ -27,10 +27,20 @@
 <createdTime>2014-12-02 09:16:52 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Column_2" id="1F8A9225-A2D8-22A4-0286-611ACD4E411D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="TIME" id="5AC70EE4-E506-2390-991A-0E611542F51E">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:52 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Column_1" id="5FF4CCD9-EA07-44D8-DE89-A063855FBF54">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="TELLEGRAM_NAME" id="AA59CF72-DC10-F7AE-8AA1-71867B47A5C0">
 <createdBy>Administrator</createdBy>

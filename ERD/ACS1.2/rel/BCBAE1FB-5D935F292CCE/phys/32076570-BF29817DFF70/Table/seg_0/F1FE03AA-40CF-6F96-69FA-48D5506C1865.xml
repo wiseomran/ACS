@@ -32,6 +32,11 @@
 <createdTime>2014-12-02 09:16:52 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Column_2" id="3C317453-A2B5-E69B-CC1A-9FB82892A297">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="IN_OUT_NAME" id="415E8E95-DB09-E194-EDA8-752C02F29206">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:52 UTC</createdTime>
@@ -41,6 +46,11 @@
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:52 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Column_1" id="CA791A2A-7FD7-1E3F-5B88-390D6D1DEF8E">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>

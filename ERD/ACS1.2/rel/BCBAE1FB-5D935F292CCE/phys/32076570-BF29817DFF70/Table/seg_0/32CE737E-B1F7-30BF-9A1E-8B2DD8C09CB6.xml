@@ -122,6 +122,11 @@
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Column_1" id="859CB5CC-F356-2683-458E-FCFAF4716793">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="ATTACHMENT" id="98416696-D1BA-9721-7E08-53FB47931875">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
@@ -156,6 +161,11 @@
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Column_2" id="CE190630-3225-6393-26E0-2788447EFD14">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="SENT_DATE" id="D126413D-7AD8-2718-38CA-BFFC2D671F41">
 <createdBy>Administrator</createdBy>

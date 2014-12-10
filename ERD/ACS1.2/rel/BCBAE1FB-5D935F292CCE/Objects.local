@@ -46,6 +46,7 @@
    <object objectType="Table" objectID="B9719AA6-2C95-17A4-559C-50285F4FA75E" name="SAVE_DOC" seqName="seg_0"/>
    <object objectType="Table" objectID="2353E48C-C487-1755-70C0-AA345A2DEF40" name="TELLEGRAM" seqName="seg_0"/>
    <object objectType="Table" objectID="C3B44AAD-FADE-039E-0EA0-44AABF8E39CB" name="WOMEN_REQUEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="5A5672DC-96D0-2C44-AED6-20BAC8F09380" name="table_template" seqName="seg_0"/>
    <object objectType="View" objectID="01E6910D-FCD5-E831-0905-025AAEFC9D9B" name="COMM_ALL" seqName="seg_0"/>
    <object objectType="View" objectID="5575E418-853E-A8A6-5B3D-F0CC9F68AB73" name="COMM_SADER_ALL" seqName="seg_0"/>
    <object objectType="View" objectID="B1B4A05E-C032-E8AD-3326-C341DA7477EB" name="DIF_DATE_BTN_ATUO_REV" seqName="seg_0"/>

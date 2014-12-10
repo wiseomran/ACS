@@ -284,6 +284,11 @@
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
 </ColumnProxy>
+<ColumnProxy name="Column_1" id="B1073088-A7AB-0132-0F27-3E18F0BD8E4E">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="TELLEGRAM_DATE_DD" id="B9CA2F23-B5D3-E57B-272F-C1A246029908">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
@@ -323,6 +328,11 @@
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Column_2" id="D5BBA8E5-8E8A-767B-7AE5-72D354240223">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="IN_DATE_MM" id="DE7B931A-6DE5-CC60-7908-B6ADECC3566B">
 <createdBy>Administrator</createdBy>

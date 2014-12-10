@@ -22,6 +22,11 @@
 </IndexProxy>
 </indexProxies>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Column_2" id="26075B67-997B-FBB4-29AC-970254FB23C8">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="ORDER_RANGE" id="31C4E5FE-9914-B436-4DDD-A73959CC02D6">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
@@ -67,6 +72,11 @@
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Column_1" id="9AEDF68B-788F-3A00-77D2-1E44A672D1BC">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="SADER_DIV" id="A0E4BED7-1494-8F19-8FFF-DC5FD99E637B">
 <createdBy>Administrator</createdBy>

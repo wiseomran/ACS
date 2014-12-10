@@ -150,6 +150,28 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Column_1" id="1D701094-9FD2-2904-5F88-1982B8F6E33F">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="EFD49FCB-7071-D3EB-9795-709897858CB9"/>
+</propertyMap>
+</Column>
+<Column name="Column_2" id="D2FED4CA-96AC-F103-2857-B2DA9BD56105">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="E2B9FCC9-DAFB-6A8E-5641-BBA1BF193B71"/>
+</propertyMap>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="31F2063D-CD46-2020-2037-D7F2C77400D9" name="COMM_PKG_PK">

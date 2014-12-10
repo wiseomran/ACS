@@ -22,6 +22,11 @@
 </IndexProxy>
 </indexProxies>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Column_1" id="0714139A-61CA-BFAE-FC24-F08795375B9E">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+</ColumnProxy>
 <ColumnProxy name="SERIAL_SEC" id="20FFE69D-CFB0-7FC1-0D2B-4A556474C6E9">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:52 UTC</createdTime>
@@ -41,6 +46,11 @@
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:52 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Column_2" id="651285EE-5D7E-3226-3AB1-47E6E11C3B84">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="SERIAL_TYPE" id="72367A10-AB53-82C5-F9B3-879E3A677279">
 <createdBy>Administrator</createdBy>

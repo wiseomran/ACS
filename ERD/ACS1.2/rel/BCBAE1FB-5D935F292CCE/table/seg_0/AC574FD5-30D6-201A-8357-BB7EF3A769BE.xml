@@ -194,18 +194,27 @@
 <dataTypeSize>30 BYTE</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="omran" id="07960026-5056-A6FB-BC19-74C96E16ABB2">
-<sourceConnName>osd11g</sourceConnName>
-<sourceObjSchema>LINKED</sourceObjSchema>
-<sourceObjName>omran</sourceObjName>
+<Column name="Column_1" id="62D90EFB-B6C8-800A-317C-990023311EEF">
 <createdBy>Administrator</createdBy>
-<createdTime>2014-12-07 02:06:29 UTC</createdTime>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
 <ownerDesignName>ACS1.2</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<use>0</use>
 <autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="EFD49FCB-7071-D3EB-9795-709897858CB9"/>
+</propertyMap>
+</Column>
+<Column name="Column_2" id="12F8776F-01CB-80AF-C65F-9191F8CFFB05">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-10 09:59:06 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<autoIncrementCycle>false</autoIncrementCycle>
+<propertyMap>
+<property name="ctemplateID" value="E2B9FCC9-DAFB-6A8E-5641-BBA1BF193B71"/>
+</propertyMap>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
