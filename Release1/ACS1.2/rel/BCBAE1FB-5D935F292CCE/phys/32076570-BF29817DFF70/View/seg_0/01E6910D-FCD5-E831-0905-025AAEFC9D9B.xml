@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="COMM_ALL" directorySegmentName="seg_0" id="01E6910D-FCD5-E831-0905-025AAEFC9D9B">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:57 UTC</createdTime>
-<ownerDesignName>ACS1.2</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-</TableViewProxyOraclev10g>
