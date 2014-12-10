@@ -94,7 +94,50 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="5A5672DC-96D0-2C44-AED6-20BAC8F09380" otype="Table" vid="6B232869-BF6F-59DD-0549-F69CF1FA9FAD">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="61" y="179" width="207" height="108"/>
+<bounds x="25" y="145" width="163" height="108"/>
+<useCustomFormat>true</useCustomFormat>
+<useDefaultColor>false</useDefaultColor>
+<backgroundColor>-16711732</backgroundColor>
+<foregroundColor>-16776961</foregroundColor>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject>
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject>
+<foType>Comments</foType>
+<colorRGB>-12566464</colorRGB>
+</FontObject>
+</fonts>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="5DE533B1-6911-CD02-2D1E-1AE7D87217AD" otype="Table" vid="0577FEF9-AA1B-0138-38C5-D89019886C5E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -460,7 +503,7 @@
 <diagramViews>
 <DiagramView class="oracle.dbtools.crest.swingui.TVDiagramView" oid="8057D7AD-F18C-6111-62D6-55D5221A072A" dpv_id="6A3B0B68-9BE0-1270-10C8-8F7674E6FFCE" vid="7B9794ED-6D7C-59F5-EECF-CF94AB16CAD1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="31" y="31" width="140" height="100"/>
+<bounds x="25" y="31" width="163" height="100"/>
 <rdiagramName>Logical</rdiagramName>
 <rdiagramID>6A3B0B68-9BE0-1270-10C8-8F7674E6FFCE</rdiagramID>
 <compositeView>false</compositeView>
