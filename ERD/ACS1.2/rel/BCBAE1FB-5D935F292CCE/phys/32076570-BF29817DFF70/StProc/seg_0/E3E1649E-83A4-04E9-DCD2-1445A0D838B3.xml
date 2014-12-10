@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="KILL_LOCK" directorySegmentName="seg_0" id="E3E1649E-83A4-04E9-DCD2-1445A0D838B3">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>KILL_LOCK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<source>CREATE OR REPLACE procedure     OSD.KILL_LOCK (obj number) as&lt;br/&gt;&lt;br/&gt;begin&lt;br/&gt;&lt;br/&gt;  for i in  &lt;br/&gt;       (select sid,serial# &lt;br/&gt;        from v$session s, v$locked_object b &lt;br/&gt;        where s.sid = b.session_id&lt;br/&gt;        and object_id = obj)&lt;br/&gt;  loop&lt;br/&gt;  &lt;br/&gt;      EXECUTE IMMEDIATE &apos;ALTER SYSTEM KILL SESSION &apos;||&apos;&apos;&apos;&apos;||i.sid||&apos;,&apos;||i.serial#||&apos;&apos;&apos;&apos;||&apos; immediate&apos;;&lt;br/&gt;&lt;br/&gt;  end loop;&lt;br/&gt;    &lt;br/&gt;end;</source>
+<body>CREATE OR REPLACE procedure     OSD.KILL_LOCK (obj number) as&lt;br/&gt;&lt;br/&gt;begin&lt;br/&gt;&lt;br/&gt;  for i in  &lt;br/&gt;       (select sid,serial# &lt;br/&gt;        from v$session s, v$locked_object b &lt;br/&gt;        where s.sid = b.session_id&lt;br/&gt;        and object_id = obj)&lt;br/&gt;  loop&lt;br/&gt;  &lt;br/&gt;      EXECUTE IMMEDIATE &apos;ALTER SYSTEM KILL SESSION &apos;||&apos;&apos;&apos;&apos;||i.sid||&apos;,&apos;||i.serial#||&apos;&apos;&apos;&apos;||&apos; immediate&apos;;&lt;br/&gt;&lt;br/&gt;  end loop;&lt;br/&gt;    &lt;br/&gt;end;</body>
+</StoredProcedureOraclev10g>

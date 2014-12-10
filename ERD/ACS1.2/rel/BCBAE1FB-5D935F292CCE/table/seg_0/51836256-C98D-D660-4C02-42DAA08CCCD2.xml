@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51836256-C98D-D660-4C02-42DAA08CCCD2" name="PROCESS_PRN_WARD">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PROCESS_PRN_WARD</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROCESS_NO" id="EFB98C53-F467-F640-EBCA-B349D6C88371">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_PRN_WARD</sourceObjSchema>
+<sourceObjName>PROCESS_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_NO" id="826460E6-03E5-8550-85EF-9737193EF6AF">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_PRN_WARD</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECIEVED_TO_CODE" id="0D9FB523-5295-8A3D-E7F0-25CC40DC535F">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_PRN_WARD</sourceObjSchema>
+<sourceObjName>RECIEVED_TO_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="285654F4-63D3-D947-53CE-CFDC5525EDD3">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_PRN_WARD</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="B33D33E5-AD23-2059-3FDF-417FD01413C2">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_PRN_WARD</sourceObjSchema>
+<sourceObjName>TIME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE" id="E7597EE7-5AB3-4BF5-6E35-6244E41CDDB0">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_PRN_WARD</sourceObjSchema>
+<sourceObjName>SITE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="E46BBE8B-1175-37B0-B89B-8331ACE7901A">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_PRN_WARD</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATE" id="11A15C5D-01A0-71E5-1D16-A1DCE84BF8AE">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_PRN_WARD</sourceObjSchema>
+<sourceObjName>CREATE_DATE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

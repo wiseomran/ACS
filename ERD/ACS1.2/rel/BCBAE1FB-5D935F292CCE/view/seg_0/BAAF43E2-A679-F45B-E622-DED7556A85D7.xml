@@ -1,0 +1,267 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="BAAF43E2-A679-F45B-E622-DED7556A85D7" name="MAIL_HOUR2">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>MAIL_HOUR2</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT p.YEAR,&lt;br&gt;  p.PROCESS_NO,&lt;br&gt;  c.SUBJECT,&lt;br&gt;  p.LOG_COUNT,&lt;br&gt;  p.DEPARTMENT_NO,&lt;br&gt;  p.DEPT_CODE,&lt;br&gt;  p.CURRENT_DEPT,&lt;br&gt;  p.TIME_FLAG,&lt;br&gt;  p.MAIL_FLAG,&lt;br&gt;  SYSDATE,&lt;br&gt;  TRUNC(SYSDATE - p.TIME_FLAG) &quot;dd&quot;,&lt;br&gt;  TRUNC(MOD((SYSDATE - p.TIME_FLAG) * 24, 60)) HH,&lt;br&gt;  TRUNC(MOD((SYSDATE - p.TIME_FLAG) * 24 * 60, 60)) &quot;min&quot;&lt;br&gt;FROM PROCESS_STATUS p,&lt;br&gt;  COMM_MASTER c&lt;br&gt;WHERE p.PROCESS_NO = c.PROCESS_NO AND p.YEAR &gt; 33 AND&lt;br&gt;  p.DEPARTMENT_NO NOT IN (&apos;2010300000&apos;, &apos;2010302400&apos;, &apos;2010302000&apos;,&lt;br&gt;  &apos;2010101300&apos;) AND p.DEPT_CODE NOT IN (&apos;2010300000&apos;, &apos;2010302400&apos;,&lt;br&gt;  &apos;2010302000&apos;, &apos;2010101300&apos;) AND p.CURRENT_DEPT NOT IN (&apos;2010300000&apos;,&lt;br&gt;  &apos;2010302400&apos;, &apos;2010302000&apos;, &apos;2010101300&apos;) AND p.MAIL_FLAG = 1 AND&lt;br&gt;  TRUNC(SYSDATE - p.TIME_FLAG) &gt; 2 AND p.REC_USER IS NULL AND&lt;br&gt;  p.ACTION_CODE NOT IN (101, 102, 103, 104) AND p.SADER_NO IS NULL AND&lt;br&gt;  p.LOCATION = 1 AND p.DISPLAY = 1&lt;br&gt;ORDER BY 10,&lt;br&gt;  11,&lt;br&gt;  12</userDefinedSQL>
+<parsed>true</parsed>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<usedContainers>
+<container alias="p" containerID="B77AE2B6-9702-2C8C-88A0-0D0B75074BE8"/>
+<container alias="c" containerID="64DBC6E5-097C-8856-2E67-AE2B79EC45B6"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="YEAR" id="AF4A1E11-AB61-F8A9-1DFB-B2D2E6F54A55">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER (2)</dataType>
+<headerAlias>YEAR</headerAlias>
+<reference>false</reference>
+<referencedColumn>934C3813-2957-45FC-4F98-6CEB830B7AF4</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PROCESS_NO" id="D57D1CAA-2B82-285F-2C75-903C89F7FCFC">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>PROCESS_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER (11)</dataType>
+<headerAlias>PROCESS_NO</headerAlias>
+<reference>false</reference>
+<referencedColumn>6C924FB9-6F2B-4F0B-35E4-2B593EA59432</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SUBJECT" id="D239EF8B-5ECE-E782-5902-E6E2F3FC75D0">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>SUBJECT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (100 BYTE)</dataType>
+<headerAlias>SUBJECT</headerAlias>
+<reference>false</reference>
+<referencedColumn>D0E6F3A8-61CD-EFB2-86D5-EA3B64D85F83</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LOG_COUNT" id="62E0C404-66F8-C793-6F78-44C48EB6F768">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>LOG_COUNT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER</dataType>
+<headerAlias>LOG_COUNT</headerAlias>
+<reference>false</reference>
+<referencedColumn>30D3D913-E790-1A15-B123-C633589314DF</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPARTMENT_NO" id="D35811AC-6CB2-4E55-3D4D-257508840FDB">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<headerAlias>DEPARTMENT_NO</headerAlias>
+<reference>false</reference>
+<referencedColumn>0EC48E0C-CAA5-853E-9AF4-2E39AF66D168</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPT_CODE" id="354608AB-C636-A3E7-F49D-F744D265DEBA">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>DEPT_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<headerAlias>DEPT_CODE</headerAlias>
+<reference>false</reference>
+<referencedColumn>981DDB7D-BC4B-0EE1-F901-B37CF3C915C4</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CURRENT_DEPT" id="3BA4E9FA-A8D7-D33F-1AA8-2D4F049D9227">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>CURRENT_DEPT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10 BYTE)</dataType>
+<headerAlias>CURRENT_DEPT</headerAlias>
+<reference>false</reference>
+<referencedColumn>86B1E584-BE61-5F8D-CA4C-5F3EB5B67483</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TIME_FLAG" id="58CF7E79-71E0-128D-A763-472E3B04C703">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>TIME_FLAG</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>DATE</dataType>
+<headerAlias>TIME_FLAG</headerAlias>
+<reference>false</reference>
+<referencedColumn>C9BD9B22-6B6E-944D-2C4B-AA44A2187DB1</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MAIL_FLAG" id="2EB90EA9-EE33-FEFB-DEB1-40F19DAED23E">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>MAIL_FLAG</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER</dataType>
+<headerAlias>MAIL_FLAG</headerAlias>
+<reference>false</reference>
+<referencedColumn>D882B0C7-72B7-008A-C428-8A722F638962</referencedColumn>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NULL SET GENERATED_567" id="35A01B32-99D2-2B2B-9F35-B8EEE303604D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<headerAlias>SYSDATE</headerAlias>
+<expression>SysDate</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NULL SET GENERATED_569" id="6EDCDF3A-2D3E-5BF6-CBD8-940B6D5DC61D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>&quot;dd&quot;</alias>
+<headerAlias>dd</headerAlias>
+<expression>TRUNC(SysDate - p.TIME_FLAG)</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="hh" id="D6C8F4BF-BF35-D46A-0501-0262A2295BBB">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>MAIL_HOUR2</sourceObjSchema>
+<sourceObjName>hh</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<alias>HH</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>hh</headerAlias>
+<expression>TRUNC(MOD((SysDate - p.TIME_FLAG) * 24, 60))</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NULL SET GENERATED_571" id="663E7951-4316-67BE-CCA1-20D8303863FE">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 19:21:55 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>&quot;min&quot;</alias>
+<headerAlias>mi</headerAlias>
+<expression>TRUNC(MOD((SysDate - p.TIME_FLAG) * 24 * 60, 60))</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="B77AE2B6-9702-2C8C-88A0-0D0B75074BE8">
+<container>true</container>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="64DBC6E5-097C-8856-2E67-AE2B79EC45B6">
+<container>true</container>
+<schema>OSD</schema>
+<tableName>COMM_MASTER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="934C3813-2957-45FC-4F98-6CEB830B7AF4">
+<columnName>YEAR</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="6C924FB9-6F2B-4F0B-35E4-2B593EA59432">
+<columnName>PROCESS_NO</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D0E6F3A8-61CD-EFB2-86D5-EA3B64D85F83">
+<columnName>SUBJECT</columnName>
+<schema>OSD</schema>
+<tableName>COMM_MASTER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="30D3D913-E790-1A15-B123-C633589314DF">
+<columnName>LOG_COUNT</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="0EC48E0C-CAA5-853E-9AF4-2E39AF66D168">
+<columnName>DEPARTMENT_NO</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="981DDB7D-BC4B-0EE1-F901-B37CF3C915C4">
+<columnName>DEPT_CODE</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="86B1E584-BE61-5F8D-CA4C-5F3EB5B67483">
+<columnName>CURRENT_DEPT</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C9BD9B22-6B6E-944D-2C4B-AA44A2187DB1">
+<columnName>TIME_FLAG</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D882B0C7-72B7-008A-C428-8A722F638962">
+<columnName>MAIL_FLAG</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="98E93990-A6D8-B364-C9AD-0B07B10723D6">
+<columnName>PROCESS_NO</columnName>
+<schema>OSD</schema>
+<tableName>COMM_MASTER</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="1074B99B-9D03-DB9D-7798-F247BFB2D40E">
+<columnName>REC_USER</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="4E188410-AF64-DD03-C330-577629670005">
+<columnName>ACTION_CODE</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="67B793CA-4CA5-77AE-F302-B06B722320DC">
+<columnName>SADER_NO</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="945AA247-C50F-BC73-8A20-3DA966563D36">
+<columnName>LOCATION</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D16D0531-F5B5-1F78-F132-55CDB15B6F2C">
+<columnName>DISPLAY</columnName>
+<schema>OSD</schema>
+<tableName>PROCESS_STATUS</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

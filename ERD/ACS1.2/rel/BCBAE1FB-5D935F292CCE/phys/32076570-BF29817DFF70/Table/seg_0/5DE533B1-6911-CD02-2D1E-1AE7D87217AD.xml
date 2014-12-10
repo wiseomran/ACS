@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="EPX_MAIL" directorySegmentName="seg_0" id="5DE533B1-6911-CD02-2D1E-1AE7D87217AD">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F3C53BD1-C9CC-D2AC-6D97-B5710726946B</segment>
+<tableSpace>134DEAAC-40A3-C29E-079A-50EB33274A15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MAIL_PK" id="4FF027CF-1656-DCB8-1C98-59562FDB7B0A">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
+<tableSpace>134DEAAC-40A3-C29E-079A-50EB33274A15</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOTES_NO" id="03BE0DB1-D0BF-86A9-8D7F-9FD24FCB21E6">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PERS_NAME" id="06F6A623-2952-B53B-171E-BD0B69A34988">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_SER" id="3F0FBC89-C6C8-3004-337A-D39F343BDA5B">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NO" id="4124C99C-0832-1A17-25E6-C264C823DAB1">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAIL_DATE" id="5516049F-E4A6-E43B-1B32-84E9B92FCC01">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_NO" id="56CE2D9D-B7B4-0649-0208-9B84D6F522EC">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAIL_NOTE" id="A57CEE35-8145-A7EA-67C9-2B1F2E20AE49">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAIL_NO" id="AB160A22-986D-62FB-CAA2-072E593B1AC3">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FILE_SER_NO" id="B806E236-8B6D-98EC-B72A-A1A1E86449AD">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DATE" id="C1608A59-BCF5-3BE7-3527-AEBC62D6A848">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="C343B5F9-D205-AB4F-1FF7-316EF3178B6B">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOBILE_NO" id="C89EA4FC-82B2-E8DF-146F-B73C6F4C155B">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_NO" id="F6444178-2026-EF59-AFBD-BCE5B1E1ABC1">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MAIL_PK" id="5A9D1724-001D-E435-E7F6-CD6B629F41B0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:54 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
+<tableSpace>134DEAAC-40A3-C29E-079A-50EB33274A15</tableSpace>
+<existingIndex>4FF027CF-1656-DCB8-1C98-59562FDB7B0A</existingIndex>
+<indexSegment>655E7A28-6B1F-5541-3876-F316D0813335</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

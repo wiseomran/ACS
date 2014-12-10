@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="LAWS" directorySegmentName="seg_0" id="9447743E-6253-C813-4BED-96E9A5F15AE0">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjName>LAWS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions109" id="D082065F-46E0-73E7-4283-2A2706F138FC">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>B67109F4-FDBC-1061-94D8-288B92E08BE8</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

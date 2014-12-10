@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="RECIEVED_EMP" directorySegmentName="seg_0" id="3969B2BB-DA4C-44B4-AAA7-4CB71BBE4782">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F3C53BD1-C9CC-D2AC-6D97-B5710726946B</segment>
+<tableSpace>134DEAAC-40A3-C29E-079A-50EB33274A15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPARTMENT_NO" id="2676187C-E12A-7A01-4801-B9379A2B769D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEND_DATE" id="378F245F-192B-FE00-E0D9-530F0BFAA46F">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECIEVED_TIME" id="45612F1D-A3A8-74B9-9A31-4F7F0D7471AB">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCESS_FLAG" id="53EA4FC3-F2E3-7DDB-1319-E5CDA5E4D29E">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_FLAG" id="7BCC5445-4A6D-5E14-37CA-213F67E1315A">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMP_NO" id="80439CF4-DE79-98C1-F896-5977A96E5728">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="944E48C7-638F-F802-6CAE-428012FB3A22">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REC_DATE" id="9ACD87E7-3BAF-20D2-A2DA-AD8CE4C81F79">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUBJECT" id="A7F64B48-D381-9008-6A22-D7FC95B61741">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROCESS_NO" id="AEA14E6B-779E-5E7B-821F-D605E5084ED4">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

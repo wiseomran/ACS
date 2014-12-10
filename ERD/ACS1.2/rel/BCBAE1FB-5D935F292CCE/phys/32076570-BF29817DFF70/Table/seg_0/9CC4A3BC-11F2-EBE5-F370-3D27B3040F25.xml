@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="OSD_SADER_SERIAL" directorySegmentName="seg_0" id="9CC4A3BC-11F2-EBE5-F370-3D27B3040F25">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F3C53BD1-C9CC-D2AC-6D97-B5710726946B</segment>
+<tableSpace>134DEAAC-40A3-C29E-079A-50EB33274A15</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_OSD_SADER_SERIAL" id="43C860EE-19FC-4DC8-D54D-5FF2706ED519">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
+<tableSpace>134DEAAC-40A3-C29E-079A-50EB33274A15</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SERIAL_SEC" id="20FFE69D-CFB0-7FC1-0D2B-4A556474C6E9">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME" id="27604CEF-DF82-EF01-9EA4-DCAD6ECC5238">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SITE" id="2DCEB174-34D1-C4A9-6040-0D9521CB02A0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SERIAL_NAME_IN" id="53B99329-0642-2473-9CC3-2338CDDFF323">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SERIAL_TYPE" id="72367A10-AB53-82C5-F9B3-879E3A677279">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT_CODE" id="8660A415-79BD-9C33-8069-D539E5AAC3C9">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SERIAL_NAME_TO" id="9F4BF787-9256-F5DC-5A3A-1D960C37D8F0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SERIAL_NAME" id="F29E5165-0BCC-4E47-E4D8-6CBADACD8EE4">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_OSD_SADER_SERIAL" id="7E608327-4A8D-3415-D87A-CEC4300AD5E1">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
+<tableSpace>134DEAAC-40A3-C29E-079A-50EB33274A15</tableSpace>
+<existingIndex>43C860EE-19FC-4DC8-D54D-5FF2706ED519</existingIndex>
+<indexSegment>655E7A28-6B1F-5541-3876-F316D0813335</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

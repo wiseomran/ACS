@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SADER_LINKED1" directorySegmentName="seg_0" id="DD596727-84F5-F0FC-A19C-77105051B5AC">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>SADER_LINKED1</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<actions>INSERT, DELETE</actions>
+<body>DECLARE&lt;br/&gt;   &lt;br/&gt;    s osd.comm_sader1%rowtype;  &lt;br/&gt;   &lt;br/&gt;BEGIN&lt;br/&gt;IF DBMS_REPUTIL.FROM_REMOTE = FALSE THEN&lt;br/&gt;&lt;br/&gt;   IF INSERTING  THEN&lt;br/&gt;   &lt;br/&gt;    select * into s&lt;br/&gt;    from osd.comm_sader1&lt;br/&gt;    where process_no = :new.linked_code;&lt;br/&gt;    &lt;br/&gt;    insert into osd.comm_sader1 (&lt;br/&gt;                  process_no, year, sader_no, year_sader, sader_date_dd, sader_date_mm, sader_date_yy, user_id,&lt;br/&gt;                  SADER_CLASS, DEPARTMENT_NO, RECIEVED_TO_CODE, SADER_IN_OUT, SADER_IN_OUT_DATE_DD, SADER_IN_OUT_DATE_MM ,SADER_IN_OUT_DATE_YY, &lt;br/&gt;                  SADER_ACCOMPANIED, YEAR_PROCESS, SADER_SEC, PROCESS_FLAG ,&lt;br/&gt;                  IN_DATE, IN_TIME, FLAG1, AUTOINS, RANGE_CODE, SIG_CODE, PACKAGE, CHEKE, linked&lt;br/&gt;                  )&lt;br/&gt;          values  (&lt;br/&gt;                  :new.process_no, :new.year, :new.sader_no, :new.year_sader, s.sader_date_dd, s.sader_date_mm, s.sader_date_yy, :new.user_id,&lt;br/&gt;                  s.SADER_CLASS, s.DEPARTMENT_NO, s.RECIEVED_TO_CODE, s.SADER_IN_OUT, s.SADER_IN_OUT_DATE_DD, s.SADER_IN_OUT_DATE_MM ,s.SADER_IN_OUT_DATE_YY, &lt;br/&gt;                  s.SADER_ACCOMPANIED, s.YEAR_PROCESS, s.SADER_SEC, s.PROCESS_FLAG ,s.IN_DATE , s.IN_TIME ,  s.FLAG1, &lt;br/&gt;                  s.AUTOINS, s.RANGE_CODE, s.SIG_CODE, s.PACKAGE , s.CHEKE, 1&lt;br/&gt;                 );&lt;br/&gt;                 &lt;br/&gt;   elsif deleting then&lt;br/&gt;   &lt;br/&gt;     begin&lt;br/&gt;       delete from comm_sader1&lt;br/&gt;       where process_no = :old.process_no;&lt;br/&gt;     exception&lt;br/&gt;        when no_data_found then null;&lt;br/&gt;     end;&lt;br/&gt;     &lt;br/&gt;   END IF; &lt;br/&gt;   &lt;br/&gt;END IF;   --  IF DBMS_REPUTIL.FROM_REMOTE&lt;br/&gt;&lt;br/&gt;EXCEPTION&lt;br/&gt;     WHEN no_data_found  THEN null;&lt;br/&gt;END; </body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>D8A986F8-3130-22D8-A1C1-F9B86C0B731A</table>
+</TriggerOraclev10g>

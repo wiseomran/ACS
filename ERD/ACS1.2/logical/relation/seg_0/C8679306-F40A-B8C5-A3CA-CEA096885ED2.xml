@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMM_PKG_DTL_FK" directorySegmentName="seg_0" id="C8679306-F40A-B8C5-A3CA-CEA096885ED2">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:50 UTC</createdTime>
+<generatorID>825AEE88-BDA8-70D4-C733-7ECD106C9AB0</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<sourcePk>FFF58631-F8F9-5C57-ED65-BCC4F4A41FAF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>825A7D5C-A93C-73BB-9728-12D177CD0FFD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4CD1518A-DD1D-F950-4B10-9F9EE33D77FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

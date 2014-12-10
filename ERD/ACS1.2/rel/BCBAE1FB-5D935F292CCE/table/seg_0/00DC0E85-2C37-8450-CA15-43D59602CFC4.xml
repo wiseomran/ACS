@@ -1,0 +1,280 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00DC0E85-2C37-8450-CA15-43D59602CFC4" name="COMM_EMPLOYEES">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_EMPLOYEES</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<commentInRDBMS>???? ????? ????????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENT_NO" id="549FB872-9B5E-3C17-ADC0-F28EEA460ED2">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>??? ???????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_NO" id="D27EC231-321E-1DE2-D9F5-ED5FBB957717">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>??? ?????? ????????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_FIRST_NAME" id="886E0B4E-1E93-18C7-C3A5-86641A373A6B">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_FIRST_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>????? ?????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_FATHER_NAME" id="22B3B769-9BB5-2D05-0EE3-486BB10B9362">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_FATHER_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>????? ??????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_GRAND_NAME" id="0E03D7D8-6D3E-EC85-7BB3-85EACF361106">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_GRAND_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>????? ??????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_FAMILY_NAME" id="A465E166-5EA0-053B-99FC-F13D58B134B4">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_FAMILY_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>????? ??????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="B5A7F979-09E1-FA40-C507-5D3E224DEF0E">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>??? ?????? ????????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUB_DEPT_NO" id="6251349E-7283-3CCA-EAD9-A8D34C9EDC0B">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>SUB_DEPT_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>????? ???????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="0D6A62EE-0AEA-6095-5B50-969B4C094C2A">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>??????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="1DD7DA4A-D74F-413A-C96C-7138B3F3E24E">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>TIME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE" id="53DB2625-2FF5-9427-0311-F99DF19B061B">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>SITE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMP_NO" id="F175ADEF-AA32-7F61-E50E-A6336056938C">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMP_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<commentInRDBMS>??? ?????? ?? ???? ????????</commentInRDBMS>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRANS_FLAG" id="0AB192F5-67A2-333A-70F5-C951206DF573">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>TRANS_FLAG</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<defaultValue>21</defaultValue>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID" id="CDD1B599-B137-17F7-058F-FAE96E9BC458">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_EMPLOYEES</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4397FEE-3662-B971-E9B3-F6018F011C23" name="PK_DEPTNO_CODE">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_DEPTNO_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:54 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549FB872-9B5E-3C17-ADC0-F28EEA460ED2"/>
+<colUsage columnID="B5A7F979-09E1-FA40-C507-5D3E224DEF0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B099F821-86B8-21C2-A3E2-400D16AF08C9" name="PK_DEPTNO_CODE">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_DEPTNO_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549FB872-9B5E-3C17-ADC0-F28EEA460ED2"/>
+<colUsage columnID="B5A7F979-09E1-FA40-C507-5D3E224DEF0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE730D8B-ED7E-313F-E4EF-444018B11233" name="COMM_EMP_IDX1">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_EMP_IDX1</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549FB872-9B5E-3C17-ADC0-F28EEA460ED2"/>
+<colUsage columnID="6251349E-7283-3CCA-EAD9-A8D34C9EDC0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C91ACAF0-ED30-F0E5-454F-16349360C02B" name="DEPTNO_EMPNO">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>DEPTNO_EMPNO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="549FB872-9B5E-3C17-ADC0-F28EEA460ED2"/>
+<colUsage columnID="D27EC231-321E-1DE2-D9F5-ED5FBB957717"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

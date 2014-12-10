@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PUBLIC" directorySegmentName="seg_0" id="PUBLIC">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions71" id="91EF64A0-841E-6998-931B-66C61F854BB8">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<privileges>REFERENCES</privileges>
+<table>64DBC6E5-097C-8856-2E67-AE2B79EC45B6</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions176" id="D4122811-3C34-F298-E8F1-DAA2AFBF0F24">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>89DD7ADD-9CDB-9103-A49C-5D8774A2B2FD</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions308" id="05233624-EC6D-09BA-6365-EC9C61F6A378">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>B77AE2B6-9702-2C8C-88A0-0D0B75074BE8</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions407" id="23E7B0A3-550F-7FAC-C77A-0B38D876251C">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<privileges>EXECUTE</privileges>
+<proc>E3E1649E-83A4-04E9-DCD2-1445A0D838B3</proc>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions416" id="34FCC84C-FC4A-02FF-0EAF-13BE89480B0A">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<privileges>EXECUTE</privileges>
+<function>B275A1FF-EBAF-A1C9-A93D-474BAE451CC6</function>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions418" id="9AE75E25-1E34-862E-E3E3-A19EE301CC88">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:59 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<privileges>EXECUTE</privileges>
+<function>CC49B9BC-38E0-385D-49F9-09894E947452</function>
+</Permission>
+</permissions>
+</UserOraclev10g>

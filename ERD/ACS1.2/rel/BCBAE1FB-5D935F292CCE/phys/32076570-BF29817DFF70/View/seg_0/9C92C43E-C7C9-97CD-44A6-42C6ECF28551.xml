@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="MAIL_HOUR3" directorySegmentName="seg_0" id="9C92C43E-C7C9-97CD-44A6-42C6ECF28551">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+</TableViewProxyOraclev10g>

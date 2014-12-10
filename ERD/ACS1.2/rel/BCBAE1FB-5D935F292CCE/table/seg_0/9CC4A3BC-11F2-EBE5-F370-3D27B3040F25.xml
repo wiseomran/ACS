@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CC4A3BC-11F2-EBE5-F370-3D27B3040F25" name="OSD_SADER_SERIAL">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>OSD_SADER_SERIAL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SERIAL_TYPE" id="72367A10-AB53-82C5-F9B3-879E3A677279">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD_SADER_SERIAL</sourceObjSchema>
+<sourceObjName>SERIAL_TYPE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_CODE" id="8660A415-79BD-9C33-8069-D539E5AAC3C9">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD_SADER_SERIAL</sourceObjSchema>
+<sourceObjName>DEPARTMENT_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIAL_NAME" id="F29E5165-0BCC-4E47-E4D8-6CBADACD8EE4">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD_SADER_SERIAL</sourceObjSchema>
+<sourceObjName>SERIAL_NAME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIAL_SEC" id="20FFE69D-CFB0-7FC1-0D2B-4A556474C6E9">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD_SADER_SERIAL</sourceObjSchema>
+<sourceObjName>SERIAL_SEC</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIAL_NAME_IN" id="53B99329-0642-2473-9CC3-2338CDDFF323">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD_SADER_SERIAL</sourceObjSchema>
+<sourceObjName>SERIAL_NAME_IN</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SERIAL_NAME_TO" id="9F4BF787-9256-F5DC-5A3A-1D960C37D8F0">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD_SADER_SERIAL</sourceObjSchema>
+<sourceObjName>SERIAL_NAME_TO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="27604CEF-DF82-EF01-9EA4-DCAD6ECC5238">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD_SADER_SERIAL</sourceObjSchema>
+<sourceObjName>TIME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE" id="2DCEB174-34D1-C4A9-6040-0D9521CB02A0">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD_SADER_SERIAL</sourceObjSchema>
+<sourceObjName>SITE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E608327-4A8D-3415-D87A-CEC4300AD5E1" name="PK_OSD_SADER_SERIAL">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_OSD_SADER_SERIAL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72367A10-AB53-82C5-F9B3-879E3A677279"/>
+<colUsage columnID="8660A415-79BD-9C33-8069-D539E5AAC3C9"/>
+<colUsage columnID="20FFE69D-CFB0-7FC1-0D2B-4A556474C6E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43C860EE-19FC-4DC8-D54D-5FF2706ED519" name="PK_OSD_SADER_SERIAL">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_OSD_SADER_SERIAL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72367A10-AB53-82C5-F9B3-879E3A677279"/>
+<colUsage columnID="8660A415-79BD-9C33-8069-D539E5AAC3C9"/>
+<colUsage columnID="20FFE69D-CFB0-7FC1-0D2B-4A556474C6E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

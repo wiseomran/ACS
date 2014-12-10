@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56A6C5BB-5993-4B49-91E3-5789FF03AC0E" name="PROCESS_EMP_PRN">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PROCESS_EMP_PRN</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROCESS_NO" id="DC38C0C2-D5B2-1A9F-DD3C-188025F2411F">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_EMP_PRN</sourceObjSchema>
+<sourceObjName>PROCESS_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="B7FC92F1-6A86-5542-DA26-AA5E5E929AF5">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_EMP_PRN</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENT_NO" id="C0601F05-9DF2-C42A-8E82-4B3B45442719">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_EMP_PRN</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_NO" id="64C4B186-40C7-8F27-05AB-D1DEFD026B31">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_EMP_PRN</sourceObjSchema>
+<sourceObjName>EMPLOYEE_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME" id="75A36CAC-8037-2D05-53EB-754BFC4012B7">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_EMP_PRN</sourceObjSchema>
+<sourceObjName>TIME</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITE" id="2B7BB3D4-DD0D-D52F-0F0F-36107A8F68FC">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>PROCESS_EMP_PRN</sourceObjSchema>
+<sourceObjName>SITE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:52 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB00494D-CD8B-F207-2804-291155CAB43D" name="PK_PROCESS_EMP_PRN">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_PROCESS_EMP_PRN</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC38C0C2-D5B2-1A9F-DD3C-188025F2411F"/>
+<colUsage columnID="B7FC92F1-6A86-5542-DA26-AA5E5E929AF5"/>
+<colUsage columnID="C0601F05-9DF2-C42A-8E82-4B3B45442719"/>
+<colUsage columnID="64C4B186-40C7-8F27-05AB-D1DEFD026B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A4111C5-BD87-B2F4-DDEC-1715736FB21C" name="PK_PROCESS_EMP_PRN">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PK_PROCESS_EMP_PRN</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC38C0C2-D5B2-1A9F-DD3C-188025F2411F"/>
+<colUsage columnID="B7FC92F1-6A86-5542-DA26-AA5E5E929AF5"/>
+<colUsage columnID="C0601F05-9DF2-C42A-8E82-4B3B45442719"/>
+<colUsage columnID="64C4B186-40C7-8F27-05AB-D1DEFD026B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="B1B4A05E-C032-E8AD-3326-C341DA7477EB" name="DIF_DATE_BTN_ATUO_REV">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>DIF_DATE_BTN_ATUO_REV</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL>SELECT t.serial_no,&lt;br&gt;  t.department_no,&lt;br&gt;  t.in_date,&lt;br&gt;  f.serial_no from_ser,&lt;br&gt;  f.rec_date,&lt;br&gt;  f.dept_code,&lt;br&gt;  t.process_no,&lt;br&gt;  t.YEAR,&lt;br&gt;  ((SUBSTR(t.in_date, 1, 4) * 360) + (SUBSTR(t.in_date, 6, 2) * 30) +&lt;br&gt;  SUBSTR(t.in_date, 9, 2)) - ((SUBSTR(f.rec_date, 1, 4) * 360) +&lt;br&gt;  (SUBSTR(f.rec_date, 6, 2) * 30) + SUBSTR(f.rec_date, 9, 2)) dif_date&lt;br&gt;FROM from_dept f,&lt;br&gt;  to_dept t&lt;br&gt;WHERE t.process_no = f.process_no AND t.YEAR = f.YEAR AND t.department_no =&lt;br&gt;  f.dept_code AND f.serial_no + 1 = t.serial_no&lt;br&gt;GROUP BY t.serial_no,&lt;br&gt;  t.department_no,&lt;br&gt;  t.in_date,&lt;br&gt;  f.serial_no,&lt;br&gt;  f.rec_date,&lt;br&gt;  f.dept_code,&lt;br&gt;  t.process_no,&lt;br&gt;  t.YEAR,&lt;br&gt;  ((SUBSTR(t.in_date, 1, 4) * 360) + (SUBSTR(t.in_date, 6, 2) * 30) +&lt;br&gt;  SUBSTR(t.in_date, 9, 2)) - ((SUBSTR(f.rec_date, 1, 4) * 360) +&lt;br&gt;  (SUBSTR(f.rec_date, 6, 2) * 30) + SUBSTR(f.rec_date, 9, 2))&lt;br&gt;HAVING ((SUBSTR(t.in_date, 1, 4) * 360) + (SUBSTR(t.in_date, 6, 2) * 30) +&lt;br&gt;  SUBSTR(t.in_date, 9, 2)) - ((SUBSTR(f.rec_date, 1, 4) * 360) +&lt;br&gt;  (SUBSTR(f.rec_date, 6, 2) * 30) + SUBSTR(f.rec_date, 9, 2)) &gt;= 0&lt;br&gt;ORDER BY t.process_no</userDefinedSQL>
+<parsed>true</parsed>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SERIAL_NO" id="CBA9491A-B03B-C78A-98C6-AD4E3DEE4077">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>SERIAL_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER</dataType>
+<headerAlias>SERIAL_NO</headerAlias>
+<expression>t.serial_no</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPARTMENT_NO" id="BE04F26C-CEED-C9CA-B463-FB91D0E00F3A">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>DEPARTMENT_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10)</dataType>
+<headerAlias>DEPARTMENT_NO</headerAlias>
+<expression>t.department_no</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="IN_DATE" id="4943ABBE-2656-8682-6A68-62FD6CC0BC3D">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>IN_DATE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (46)</dataType>
+<headerAlias>IN_DATE</headerAlias>
+<expression>t.in_date</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FROM_SER" id="092D2D94-D2D4-0404-5BA2-90B72CADAFCB">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>FROM_SER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>from_ser</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>FROM_SER</headerAlias>
+<expression>f.serial_no</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="REC_DATE" id="B8C88960-9C95-52D1-14F1-4DC1C6344170">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>REC_DATE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10)</dataType>
+<headerAlias>REC_DATE</headerAlias>
+<expression>f.rec_date</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPT_CODE" id="1A3EBAC3-628D-8E3E-E109-9BE5415E33DF">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>DEPT_CODE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>VARCHAR2 (10)</dataType>
+<headerAlias>DEPT_CODE</headerAlias>
+<expression>f.dept_code</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PROCESS_NO" id="0995C47D-7CA1-4193-41DB-C401B692A80B">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>PROCESS_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER (11)</dataType>
+<headerAlias>PROCESS_NO</headerAlias>
+<expression>t.process_no</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="YEAR" id="EBD72D16-A34F-8188-9F48-89E1243060CF">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<dataType>NUMBER</dataType>
+<headerAlias>YEAR</headerAlias>
+<expression>t.YEAR</expression>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DIF_DATE" id="A6C89BF7-4B77-F533-BDAC-2394FFED0CBE">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>DIF_DATE_BTN_ATUO_REV</sourceObjSchema>
+<sourceObjName>DIF_DATE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<alias>dif_date</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>DIF_DATE</headerAlias>
+<expression>((SUBSTR(t.in_date, 1, 4) * 360) + (SUBSTR(t.in_date, 6, 2) * 30) + SUBSTR(t.in_date, 9, 2)) - ((SUBSTR(f.rec_date, 1, 4) * 360) + (SUBSTR(f.rec_date, 6, 2) * 30) + SUBSTR(f.rec_date, 9, 2))</expression>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+</TableView>

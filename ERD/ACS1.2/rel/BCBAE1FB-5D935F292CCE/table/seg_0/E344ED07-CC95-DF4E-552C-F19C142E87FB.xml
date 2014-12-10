@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E344ED07-CC95-DF4E-552C-F19C142E87FB" name="COMM_LOCATIONS_DEPT">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_LOCATIONS_DEPT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:50 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATION_NO" id="56370DEB-CD7B-CB90-794B-EC04BC93AAF8">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>LOCATION_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WARED_DEPT" id="5FC9BB94-BAF3-AF51-FCF8-BD08B2FF7A2E">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>WARED_DEPT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SADER_DEPT" id="9AA6AD92-DAB5-2577-76C5-CD2A6376C6E2">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>SADER_DEPT</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WARED_TYPE" id="AA774E27-6E81-F28E-608D-C96D867D4EF4">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>WARED_TYPE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SADER_TYPE" id="DABB26EE-A171-1462-9746-81EB9F4226A0">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>SADER_TYPE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_USER" id="6BD8C361-B68B-DFD6-B7FD-2272D0170151">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>CREATE_USER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DATE" id="FB28219B-23A5-ED56-1A15-F2F0E25EC5F4">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>CREATE_DATE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_USER" id="6A4F937B-4E6F-9994-A456-FBC371F433DA">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>UPDATE_USER</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DATE" id="DF9408B7-EFF8-890F-EA96-9E0370DF1B04">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>COMM_LOCATIONS_DEPT</sourceObjSchema>
+<sourceObjName>UPDATE_DATE</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:51 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12C2356D-44C8-E389-336E-6D436A438E66" name="COMM_LOCATIONS_DEPT_PK">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_LOCATIONS_DEPT_PK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:54 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56370DEB-CD7B-CB90-794B-EC04BC93AAF8"/>
+<colUsage columnID="5FC9BB94-BAF3-AF51-FCF8-BD08B2FF7A2E"/>
+<colUsage columnID="9AA6AD92-DAB5-2577-76C5-CD2A6376C6E2"/>
+<colUsage columnID="AA774E27-6E81-F28E-608D-C96D867D4EF4"/>
+<colUsage columnID="DABB26EE-A171-1462-9746-81EB9F4226A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E816CD4D-4C4E-93AC-FDB5-E688AE1A0DB2" name="COMM_LOCATIONS_DEPT_PK">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_LOCATIONS_DEPT_PK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:53 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56370DEB-CD7B-CB90-794B-EC04BC93AAF8"/>
+<colUsage columnID="5FC9BB94-BAF3-AF51-FCF8-BD08B2FF7A2E"/>
+<colUsage columnID="9AA6AD92-DAB5-2577-76C5-CD2A6376C6E2"/>
+<colUsage columnID="AA774E27-6E81-F28E-608D-C96D867D4EF4"/>
+<colUsage columnID="DABB26EE-A171-1462-9746-81EB9F4226A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

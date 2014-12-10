@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SNAP$COMM_MASTER_DETAIL" directorySegmentName="seg_0" id="0B1E913A-7C0B-A0F0-40CF-585B3260F896">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>SNAP$COMM_MASTER_DETAIL</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<actions>INSERT, UPDATE, DELETE</actions>
+<body>declare     dmltype char; &lt;br/&gt;begin&lt;br/&gt; IF DBMS_REPUTIL.FROM_REMOTE = FALSE THEN&lt;br/&gt;if     inserting then dmltype := &apos;I&apos;;&lt;br/&gt;INSERT INTO &quot;OSD&quot;.&quot;SNAP$COMM_MASTER_DETAIL&quot;&lt;br/&gt;(PROCESS_NO,YEAR,DEPARTMENT_NO,RECIEVED_TO_CODE,&lt;br/&gt; IN_OUT_NUM,IN_DEPT_CLASS,IN_ARCHIVE_NO,IN_DATE_DD,&lt;br/&gt; IN_DATE_MM,IN_DATE_YY,IN_OUT_TYPE,ACTION_CODE,EMPLOYEE_NO,&lt;br/&gt; SERIAL_NO,USER_ID,INTERY_TIME,IN_ACCOMPANIED,CREATE_DATE) VALUES&lt;br/&gt;(:NEW.PROCESS_NO, :NEW.YEAR,         :NEW.DEPARTMENT_NO,:NEW.RECIEVED_TO_CODE,&lt;br/&gt; :NEW.IN_OUT_NUM, :NEW.IN_DEPT_CLASS,:NEW.IN_ARCHIVE_NO,:NEW.IN_DATE_DD,&lt;br/&gt; :NEW.IN_DATE_MM, :NEW.IN_DATE_YY,   :NEW.IN_OUT_TYPE,  :NEW.ACTION_CODE,&lt;br/&gt; :NEW.EMPLOYEE_NO,:NEW.SERIAL_NO,    :NEW.USER_ID,      :NEW.INTERY_TIME,&lt;br/&gt; :NEW.IN_ACCOMPANIED ,:NEW.CREATE_DATE);&lt;br/&gt;elsif  updating  then dmltype := &apos;U&apos;;&lt;br/&gt;update &quot;OSD&quot;.&quot;SNAP$COMM_MASTER_DETAIL&quot;&lt;br/&gt;set PROCESS_NO = :NEW.PROCESS_NO ,YEAR =:NEW.YEAR ,DEPARTMENT_NO= :NEW.DEPARTMENT_NO,&lt;br/&gt;       RECIEVED_TO_CODE= :NEW.RECIEVED_TO_CODE , IN_OUT_NUM = :NEW.IN_OUT_NUM ,IN_DEPT_CLASS =  :NEW.IN_DEPT_CLASS ,&lt;br/&gt;	   IN_ARCHIVE_NO = :NEW.IN_ARCHIVE_NO ,IN_DATE_DD =:NEW.IN_DATE_DD , IN_DATE_MM = :NEW.IN_DATE_MM&lt;br/&gt;	   ,IN_DATE_YY = :NEW.IN_DATE_YY ,IN_OUT_TYPE =  :NEW.IN_OUT_TYPE ,ACTION_CODE = :NEW.ACTION_CODE ,&lt;br/&gt;	   EMPLOYEE_NO = :NEW.EMPLOYEE_NO , SERIAL_NO = :NEW.SERIAL_NO ,USER_ID = :NEW.USER_ID ,&lt;br/&gt;	   INTERY_TIME = :NEW.INTERY_TIME ,IN_ACCOMPANIED = :NEW.IN_ACCOMPANIED ,CREATE_DATE = :NEW.CREATE_DATE&lt;br/&gt; WHERE PROCESS_NO=:OLD.PROCESS_NO&lt;br/&gt;  AND YEAR      =:OLD.YEAR&lt;br/&gt;  AND SERIAL_NO =:OLD.SERIAL_NO;&lt;br/&gt;&lt;br/&gt;elsif  deleting  then dmltype := &apos;D&apos;;&lt;br/&gt;DELETE &quot;OSD&quot;.&quot;SNAP$COMM_MASTER_DETAIL&quot;&lt;br/&gt;WHERE PROCESS_NO=:OLD.PROCESS_NO&lt;br/&gt;  AND YEAR      =:OLD.YEAR&lt;br/&gt;  AND SERIAL_NO =:OLD.SERIAL_NO;&lt;br/&gt;end if;&lt;br/&gt;END IF;&lt;br/&gt;end;&lt;br/&gt;</body>
+<triggerTime>AFTER</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>965CB31A-1597-B0A4-E8E3-52FCD080D48B</table>
+</TriggerOraclev10g>

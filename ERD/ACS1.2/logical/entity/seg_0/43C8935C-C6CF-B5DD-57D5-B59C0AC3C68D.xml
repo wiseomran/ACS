@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="43C8935C-C6CF-B5DD-57D5-B59C0AC3C68D" name="COMM LOCATIONS">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>A4773DC5-DB48-4DA8-F172-5F8364DA1362</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROCESS NO" id="0C0EA7D3-8DDD-7CE9-B34D-16335F4CBCFF">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>2E8CF025-9E4B-76BE-70F8-E0177EFDA01E</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="YEAR" id="D6F84F80-0F02-83D3-1A52-B1C6F3DFE21D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>0F7223D6-6683-93BA-B675-C3BF0EAFDE64</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="SERIAL NO" id="C6259CD6-EB5F-1E8D-9DC0-444AADC8B09C">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>E0AE2931-BD09-1BED-6E19-663F7CB7E1BB</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="FROM LOCATION" id="0F874A95-DE3B-B0F4-5D9A-92011A568AB5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>1BE732F8-516A-1307-E903-0FC5B99DDE5C</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="TO LOCATION" id="695D17A2-FD7C-F905-8A2E-289E072726FD">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>028F4665-41D5-E17B-DCDC-ED0FCC6107FA</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="SENT DATE" id="69B490B9-372A-4AC5-EA43-77377A264389">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>CE94348E-30DE-F2F1-E4A4-6AB18432CC48</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute name="REC FLAG" id="5A68B135-9072-D5A5-3FF8-86BE0D4832D5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>D1E2534F-9943-80B6-C3F0-65845220C029</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
+</Attribute>
+<Attribute name="CREATE USER" id="64E9990A-321A-B16C-D19E-8B6579A4D2D7">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>C99219A3-4F88-FF5A-A678-0E71AAE96FE4</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="CREATE DATE" id="DB47ED88-D7DC-C6A3-AE61-A48DE3E95E59">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>26012A47-8E6F-59D0-2F13-EB53EF2E2F24</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+</Attribute>
+<Attribute name="UPDATE USER" id="62BD9CD2-AEF5-D3BD-66C6-745B7DB0A83F">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>02DEDFD7-89E5-0ED3-FC26-6A6ED2F5F93C</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="UPDATE DATE" id="885AE220-61F6-9B81-56FA-9D258D6B594B">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>310B6592-B4F4-147A-5219-E639B35B7E36</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFA50978-D0A9-D083-1EDB-0A64358419E1" name="{entity} PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>5C03F137-471A-2CAB-333D-503FA67150DF</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C0EA7D3-8DDD-7CE9-B34D-16335F4CBCFF</attributeRef>
+<attributeRef>D6F84F80-0F02-83D3-1A52-B1C6F3DFE21D</attributeRef>
+<attributeRef>C6259CD6-EB5F-1E8D-9DC0-444AADC8B09C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

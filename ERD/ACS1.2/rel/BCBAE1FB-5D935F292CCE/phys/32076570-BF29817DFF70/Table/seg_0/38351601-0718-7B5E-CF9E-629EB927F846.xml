@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="table_template" directorySegmentName="seg_0" id="38351601-0718-7B5E-CF9E-629EB927F846">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-08 02:12:15 UTC</createdTime>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+</TableProxyOraclev11g>

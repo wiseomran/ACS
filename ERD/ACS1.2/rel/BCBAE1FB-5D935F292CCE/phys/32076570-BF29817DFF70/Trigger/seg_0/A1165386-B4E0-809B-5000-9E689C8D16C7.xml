@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PKG_ID_TRIG" directorySegmentName="seg_0" id="A1165386-B4E0-809B-5000-9E689C8D16C7">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>PKG_ID_TRIG</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:55 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<actions>INSERT</actions>
+<body>DECLARE&lt;br/&gt;    v_max number;&lt;br/&gt;BEGIN&lt;br/&gt;&lt;br/&gt;    select max(pkg_no) &lt;br/&gt;    into v_max&lt;br/&gt;    from osd.comm_pkg&lt;br/&gt;    where process_no = :new.process_no;&lt;br/&gt;    &lt;br/&gt;    if v_max &gt; 0 then&lt;br/&gt;       &lt;br/&gt;       :new.pkg_id := :new.process_no||v_max+1;&lt;br/&gt;    &lt;br/&gt;    end if;    &lt;br/&gt;&lt;br/&gt;exception&lt;br/&gt;    when others then&lt;br/&gt;        raise;&lt;br/&gt;END; </body>
+<triggerTime>BEFORE</triggerTime>
+<owner>C5730B64-FB4D-9F2E-CCB9-0672373953FB</owner>
+<table>9A0DABFE-5DF9-12EF-CE36-A1D7F761546F</table>
+</TriggerOraclev10g>

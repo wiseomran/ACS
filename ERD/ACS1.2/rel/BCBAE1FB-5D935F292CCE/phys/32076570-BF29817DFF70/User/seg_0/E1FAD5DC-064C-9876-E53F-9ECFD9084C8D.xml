@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MAJED" directorySegmentName="seg_0" id="E1FAD5DC-064C-9876-E53F-9ECFD9084C8D">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjName>MAJED</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions86" id="2EC05C19-EF30-2E6B-CADD-65F896141807">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:58 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<privileges>DELETE</privileges>
+<table>965CB31A-1597-B0A4-E8E3-52FCD080D48B</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

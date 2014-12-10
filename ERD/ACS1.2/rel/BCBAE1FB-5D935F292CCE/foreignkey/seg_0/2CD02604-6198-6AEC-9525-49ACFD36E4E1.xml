@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2CD02604-6198-6AEC-9525-49ACFD36E4E1" name="COMM_PKG_DTL_FK">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>COMM_PKG_DTL_FK</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<containerWithKeyObject>60B068E2-483C-7D09-9A01-275681BF8D84</containerWithKeyObject>
+<deleteRule>CASCADE</deleteRule>
+<localFKIndex>767C779E-CCBC-876A-13D7-17E04281F3E0</localFKIndex>
+<keyObject>A63045A1-64FB-4701-F920-5D64776E3616</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

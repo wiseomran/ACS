@@ -1,0 +1,728 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BC63B6E-B627-814E-E8F7-8B10289E9567" name="COMM MASTER">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>8414BEC0-7C67-E410-2C8A-D1E44A4D5454</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PROCESS NO" id="41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك اف�ٍد</commentInRDBMS>
+<generatorID>A50AA4DB-12B9-F2FE-BD0B-C8A4C9984004</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+</Attribute>
+<Attribute name="YEAR" id="FD798286-B0DC-7126-BFF8-A5D18C31CBF0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افسلة</commentInRDBMS>
+<generatorID>6D587813-6C7D-2EBE-0A7F-64C9307A7839</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="DEPARTMENT NO" id="2C00FF67-20A8-64FC-EB4E-508470FB82D7">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افادارة افكرسفة</commentInRDBMS>
+<generatorID>E499A0E1-BC0A-FBFA-FD96-6A41A8C187BA</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="TELLEGRAM NO" id="C8A5788C-50CE-3F9C-4D3A-985DDAAF1DB5">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك افخظاب</commentInRDBMS>
+<generatorID>E026A227-3EE9-AB5A-2F21-3F668458C01A</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="TELLEGRAM DATE DD" id="36900378-DCB6-5EA3-5B61-41315076B0BD">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>تارٍخ افخظاب</commentInRDBMS>
+<generatorID>7DAF67BB-F3CF-4865-3AA6-374C245354AF</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="TELLEGRAM DATE MM" id="35445EBB-C7FC-BF38-CB28-E9853710D6C9">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>شمر</commentInRDBMS>
+<generatorID>65F61132-E9F5-73D8-F756-53928F802F97</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="TELLEGRAM DATE YY" id="E4AD09CE-9B91-AC14-49E2-CA569DEB9946">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>سلة</commentInRDBMS>
+<generatorID>CCDB4B5B-751D-7262-C0B6-58BC11A21E07</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+<Attribute name="TELLEGRAM TYPE" id="F3FE90B9-5741-6B8C-CD8B-A695BBB6EBF7">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>لنغ افنارد</commentInRDBMS>
+<generatorID>7AF957C8-D601-34E1-3865-ECB5852062C7</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="TELLEGRAM TIME" id="47A08B72-F9C1-CE78-4DA9-39B4ABFDF35E">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افن�ت</commentInRDBMS>
+<generatorID>69BA16FD-9D1C-D951-0315-1451AA3DE9ED</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="SUBJECT" id="947CC830-D3F1-BDBD-DF24-5A137E49F65C">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افكنضنغ</commentInRDBMS>
+<generatorID>F1CA55BE-C20C-C483-3D89-DF16AFA14225</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="IN ACCOMPANIED" id="EC28A92F-4213-64B9-CF63-94AA590B12E6">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افكش�نغات</commentInRDBMS>
+<generatorID>60BBE4EC-AB24-808C-ECBF-79146B45438A</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="INCOMMING DIRECTORATE" id="AE1BD6FF-6807-8FF3-F647-C3C0989F3762">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك افجمة افكنردة</commentInRDBMS>
+<generatorID>D9387B7B-38F4-AE3F-56C5-862C75764F22</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="DEPT CLASS" id="DE9B8126-A832-3C39-372D-37B27AB17DF7">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افت�سٍك</commentInRDBMS>
+<generatorID>6E546D9B-6C79-FA74-660F-9BE1FD63BB92</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="SEC LEVEL" id="C3FD4293-82D8-8B13-DD10-FDD389AB683D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>سرٍة افكغاكفة</commentInRDBMS>
+<generatorID>6A6CEE30-22DF-69DC-62CE-E045247B87C0</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="OLD INCOMMING" id="E0EB28EC-1F50-FD49-A8F4-44FE869D0D82">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>�ٍر كستغكف</commentInRDBMS>
+<generatorID>76D5DE7F-A043-BD4A-3D21-A89993276A97</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="BARQ TYPE" id="3524D525-41F8-A0B8-F2DB-CE2BC909A70B">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>�ٍر كستغكف</commentInRDBMS>
+<generatorID>38C2C473-3F8E-3910-D4BC-2DD8C279FE28</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="COUNTRY CODE" id="B4BCB82C-F1E8-6010-3253-0EB34BC40345">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>�ٍر كستغكف</commentInRDBMS>
+<generatorID>B4B3A821-C657-17C5-E475-F7676825EA9E</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="CITY CODE" id="24304319-037E-F876-25CE-0BE9E93D9765">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>�ٍر كستغكف</commentInRDBMS>
+<generatorID>8CEB9354-1D83-F11C-AF75-9FB9C845A572</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+</Attribute>
+<Attribute name="IN OUT CODE" id="62364CF9-7C15-A5F1-0DB3-019DC1F26F54">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>لنغ افجمة افكنردة - أ�راد 5 , داخفٍ1 � ح�نكٍة 2</commentInRDBMS>
+<generatorID>614E259D-125D-5E19-15DE-79D9AF99BB7F</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="IN DATE DD" id="66F71060-A268-E111-C522-E8038E192FCA">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>تارٍخ افنارد ٍنك</commentInRDBMS>
+<generatorID>FDC55E2F-0B38-E507-FBB2-9A37783796FE</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="IN DATE MM" id="3ABE3F4A-45F0-7E42-BB0C-246EBCC17EE9">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>شمر</commentInRDBMS>
+<generatorID>7E76C3E2-E5FB-0584-384F-046B6937FAE9</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="IN DATE YY" id="28874A64-9980-FDBB-F66F-26D775C678C0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>سلة</commentInRDBMS>
+<generatorID>4CC22701-DE13-4B8B-A758-DAEC3D420D16</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+<Attribute name="DIRECTRATE TYPE" id="1BBDDEA8-3FC4-8D5B-847B-616DD7E845E0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>F8280C47-ABCC-FE81-1F90-B809B83D3910</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="USER ID" id="8DDB8677-91F3-70E0-18BB-1EB2558071DC">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ركز افكدخف</commentInRDBMS>
+<generatorID>FB8E5B03-ACAC-5FA6-2EC0-4B5B41DFB123</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="SADER NO" id="D8D31738-9686-E2CE-E4F1-F2D6B7D7CA58">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك افصادر افساب�</commentInRDBMS>
+<generatorID>A592C47C-0E59-482F-2CDE-DEE59A7CA97C</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+</Attribute>
+<Attribute name="YEAR SADER" id="C1546E76-A0BE-8843-DE3D-8AD42CC02263">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>سلة افصادر</commentInRDBMS>
+<generatorID>20669BDE-D632-977C-6DF9-9AE8028603DF</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="WARED SEC" id="B376B939-D34B-D78A-D0DE-FFF3BD7D2B5D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS> خارجٍ 1 � داخفٍ 2</commentInRDBMS>
+<generatorID>660D6E4D-5B09-DF1E-0CF1-7A86301BCD1F</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="DOC TYPE" id="901D5F0C-4625-8611-D2D9-977DD4A09006">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>�ٍر كستغكف</commentInRDBMS>
+<generatorID>AA707D96-CD3E-F0A0-F970-933EAB59EB61</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="ID NUMBER" id="1EF56E80-9091-E410-81EB-685D09017B57">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ر�ك افاثبات</commentInRDBMS>
+<generatorID>D942FDBD-3DC3-B828-D1DA-F50526A35CB6</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="INDEX CODE" id="AA989577-6D9A-8F40-FB44-931F76FFBFBE">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ركز افتصلٍ�</commentInRDBMS>
+<generatorID>A2BC724B-67E1-2E9C-37E0-87179627286A</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+</Attribute>
+<Attribute name="DEPT CODE" id="94792217-44E3-8A29-40EE-541103A2EACA">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افادارة افكست�بفة</commentInRDBMS>
+<generatorID>7A022006-B09F-7484-F733-446D61B53DF7</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="FINISHED" id="50CC6CE4-BA19-0FFE-7CBA-3A3CD09ADBD7">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>كغاكفة ماكة</commentInRDBMS>
+<generatorID>2A56AB62-3AD8-9CA7-A4F3-16F771CAAAAA</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="INTERY DATE" id="94AD0949-C47A-EF34-8863-F719C61BC75A">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>3E4EE501-67AE-0258-0F33-469EB3A0DC3A</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="ACTION CODE" id="B489360D-7327-DFCC-E32B-470F577E9BD0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>افاجراء</commentInRDBMS>
+<generatorID>A6ECD491-8CE4-939F-2E92-A48E4815EAAA</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+</Attribute>
+<Attribute name="CREATE DATE" id="9B27D904-E080-C294-CD79-AD1F143FB705">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>تارٍخ فالشاء</commentInRDBMS>
+<generatorID>0E51A6FF-C218-E0B5-4A19-A6EAD34C01DB</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+</Attribute>
+<Attribute name="E MAIL" id="3C401F0B-F989-1BAD-FA36-3E79EDD8C2D2">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>برٍد افكراجغ</commentInRDBMS>
+<generatorID>39026719-2AFD-147C-030A-B531952249EA</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="MOBILE NO" id="3E8D729D-0906-B3A7-6A0E-26EAF282F204">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>جناف افكراجغ</commentInRDBMS>
+<generatorID>CAAB6184-2789-1F35-3C72-7475629C799F</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="TIME" id="A3093E0B-9220-4728-4AB7-F00044CCDD6D">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ن�ت افتسجٍف</commentInRDBMS>
+<generatorID>B2730034-1C93-8EF2-3396-24BA92676757</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+</Attribute>
+<Attribute name="SITE" id="D081338F-C8FE-C861-1C4C-AAC1D8F2BE53">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>79E3038F-4D9A-3801-D36A-21494788E8CD</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="ATTACHMENT" id="2038061F-6BF4-3CDD-D5A2-101B57A93839">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>ففظرند</commentInRDBMS>
+<generatorID>A27A543D-9DFC-C293-BDEE-372D89CD8F58</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+</Attribute>
+<Attribute name="REQ STATEMENT" id="BBD108A0-5A21-D4CE-08B6-DE9340AB2EB0">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>1645F74F-3A08-7B2A-9B03-8260014583AD</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="PRINT FLAG" id="8BC9F97E-0AAB-45A1-273D-099FB7341D96">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>C93434D4-DA3C-1C4D-D359-DEE0F4C4AF4B</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="P YEAR" id="A62EBED4-7CE7-D546-DECE-144F225EE81B">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>181D1BC2-D5FF-9F6B-6175-FCFD8DC7DDBD</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+</Attribute>
+<Attribute name="P SADER NO" id="6F7CD110-1420-E2F7-D948-054F994DB3CA">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>81B2FFF3-9DF7-732E-15AD-4D7716F23670</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+</Attribute>
+<Attribute name="FINISHED PERIOD" id="7CDDC795-9966-DECF-523E-411498291EF4">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>31BE8F55-17E8-27D1-1A90-6457682228BA</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+</Attribute>
+<Attribute name="PACKAGE" id="97881867-7EDD-F127-B29D-F0A435D5F6A1">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>A00A7D3B-9021-CE2D-3B20-9EB74C87E30B</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+<Attribute name="CHEKE" id="98C4B69E-CDC4-157E-A0FF-C8661F0141EB">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<commentInRDBMS>شٍ�</commentInRDBMS>
+<generatorID>D6734794-993D-FB85-7343-3B3304B3F8B9</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2178CABC-247E-6045-B57F-F6C7098D1CC2" name="{entity} PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-04 18:59:49 UTC</createdTime>
+<generatorID>903C0E85-4DCE-EF3A-A6D8-29D4AB77693D</generatorID>
+<ownerDesignName>ACS1.2</ownerDesignName>
+<engineerTo>
+<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538</attributeRef>
+<attributeRef>FD798286-B0DC-7126-BFF8-A5D18C31CBF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

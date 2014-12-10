@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9895F1B0-C4D0-2B8D-A439-D3D40CED08EE" name="FK_PROCESS_YEAR_SADER_NO">
+<sourceConnName>osd11g</sourceConnName>
+<sourceObjSchema>OSD</sourceObjSchema>
+<sourceObjName>FK_PROCESS_YEAR_SADER_NO</sourceObjName>
+<createdBy>Administrator</createdBy>
+<createdTime>2014-12-02 09:16:57 UTC</createdTime>
+<ownerDesignName>ACS1.1</ownerDesignName>
+<containerWithKeyObject>99212A4A-A57C-1A2C-3873-82AB5023DC21</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>7C11B238-68A4-E991-A221-1F55F03C4695</localFKIndex>
+<keyObject>01707A94-77C8-5AEF-6BCB-47F694BE54FE</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
