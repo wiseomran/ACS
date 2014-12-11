@@ -8,6 +8,7 @@
 <ownerDesignName>ACS1.1</ownerDesignName>
 <userDefined>true</userDefined>
 <userDefinedSQL>SELECT c.PROCESS_NO,&lt;br&gt;  c.YEAR,&lt;br&gt;  c.DEPARTMENT_NO,&lt;br&gt;  c.IN_DATE_DD,&lt;br&gt;  c.IN_DATE_MM,&lt;br&gt;  c.IN_DATE_YY,&lt;br&gt;  c.DEPT_CODE,&lt;br&gt;  &apos;c&apos;,&lt;br&gt;  c.TIME,&lt;br&gt;  c.CREATE_DATE,&lt;br&gt;  TO_NUMBER(0) serial_no,&lt;br&gt;  c.ACTION_CODE,&lt;br&gt;  c.SUBJECT,&lt;br&gt;  c.SEC_LEVEL,&lt;br&gt;  c.USER_ID&lt;br&gt;FROM COMM_MASTER c&lt;br&gt;UNION ALL&lt;br&gt;SELECT cd.PROCESS_NO,&lt;br&gt;  cd.YEAR,&lt;br&gt;  cd.DEPARTMENT_NO,&lt;br&gt;  cd.IN_DATE_DD,&lt;br&gt;  cd.IN_DATE_MM,&lt;br&gt;  cd.IN_DATE_YY,&lt;br&gt;  cd.RECIEVED_TO_CODE,&lt;br&gt;  &apos;d&apos;,&lt;br&gt;  cd.TIME,&lt;br&gt;  cd.CREATE_DATE,&lt;br&gt;  cd.SERIAL_NO,&lt;br&gt;  cd.ACTION_CODE,&lt;br&gt;  &apos;&apos;,&lt;br&gt;  TO_NUMBER(NULL),&lt;br&gt;  cd.USER_ID&lt;br&gt;FROM COMM_MASTER_DETAIL cd</userDefinedSQL>
+<validSQL>false</validSQL>
 <parsed>true</parsed>
 <schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
 <usedContainers>

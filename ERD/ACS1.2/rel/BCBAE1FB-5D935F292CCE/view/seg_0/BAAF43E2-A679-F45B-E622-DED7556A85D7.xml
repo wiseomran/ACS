@@ -8,6 +8,7 @@
 <ownerDesignName>ACS1.1</ownerDesignName>
 <userDefined>true</userDefined>
 <userDefinedSQL>SELECT p.YEAR,&lt;br&gt;  p.PROCESS_NO,&lt;br&gt;  c.SUBJECT,&lt;br&gt;  p.LOG_COUNT,&lt;br&gt;  p.DEPARTMENT_NO,&lt;br&gt;  p.DEPT_CODE,&lt;br&gt;  p.CURRENT_DEPT,&lt;br&gt;  p.TIME_FLAG,&lt;br&gt;  p.MAIL_FLAG,&lt;br&gt;  SYSDATE,&lt;br&gt;  TRUNC(SYSDATE - p.TIME_FLAG) &quot;dd&quot;,&lt;br&gt;  TRUNC(MOD((SYSDATE - p.TIME_FLAG) * 24, 60)) HH,&lt;br&gt;  TRUNC(MOD((SYSDATE - p.TIME_FLAG) * 24 * 60, 60)) &quot;min&quot;&lt;br&gt;FROM PROCESS_STATUS p,&lt;br&gt;  COMM_MASTER c&lt;br&gt;WHERE p.PROCESS_NO = c.PROCESS_NO AND p.YEAR &gt; 33 AND&lt;br&gt;  p.DEPARTMENT_NO NOT IN (&apos;2010300000&apos;, &apos;2010302400&apos;, &apos;2010302000&apos;,&lt;br&gt;  &apos;2010101300&apos;) AND p.DEPT_CODE NOT IN (&apos;2010300000&apos;, &apos;2010302400&apos;,&lt;br&gt;  &apos;2010302000&apos;, &apos;2010101300&apos;) AND p.CURRENT_DEPT NOT IN (&apos;2010300000&apos;,&lt;br&gt;  &apos;2010302400&apos;, &apos;2010302000&apos;, &apos;2010101300&apos;) AND p.MAIL_FLAG = 1 AND&lt;br&gt;  TRUNC(SYSDATE - p.TIME_FLAG) &gt; 2 AND p.REC_USER IS NULL AND&lt;br&gt;  p.ACTION_CODE NOT IN (101, 102, 103, 104) AND p.SADER_NO IS NULL AND&lt;br&gt;  p.LOCATION = 1 AND p.DISPLAY = 1&lt;br&gt;ORDER BY 10,&lt;br&gt;  11,&lt;br&gt;  12</userDefinedSQL>
+<validSQL>false</validSQL>
 <parsed>true</parsed>
 <schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
 <usedContainers>
