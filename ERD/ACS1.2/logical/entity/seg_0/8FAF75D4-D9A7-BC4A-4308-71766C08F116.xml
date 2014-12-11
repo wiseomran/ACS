@@ -41,7 +41,6 @@
 <engineerTo>
 <item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>B53AD931-BD26-5B59-09D4-B30146BA66D0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -105,7 +104,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 </Attribute>
-<Attribute name="PROCESS NO" id="A35DA3E0-DB52-38A4-9ECE-9FEE75DACB4B">
+<Attribute name="PROCESS_NO" id="A35DA3E0-DB52-38A4-9ECE-9FEE75DACB4B">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-04 18:59:50 UTC</createdTime>
 <commentInRDBMS>ر�ك اف�ٍد</commentInRDBMS>
@@ -117,21 +116,7 @@
 <referedAttribute>41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-</Attribute>
-<Attribute name="YEAR" id="826E201C-6C62-3501-945E-6A2297938150">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-04 18:59:50 UTC</createdTime>
-<commentInRDBMS>افسلة</commentInRDBMS>
-<generatorID>47407DEB-681E-6DF7-8C53-A156E67674CE</generatorID>
-<ownerDesignName>ACS1.2</ownerDesignName>
-<engineerTo>
-<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
-</engineerTo>
-<referedAttribute>FD798286-B0DC-7126-BFF8-A5D18C31CBF0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
 </Attribute>
 <Attribute name="ACTION CODE" id="DC0BB123-3960-3A39-AE69-AAD02E32D69A">
 <createdBy>Administrator</createdBy>
@@ -337,8 +322,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A2E40162-CE9D-2D16-2175-D147D16A82BB</attributeRef>
+<attributeRef>E60D28A6-A522-329C-5CD4-F594A9499418</attributeRef>
 <attributeRef>A35DA3E0-DB52-38A4-9ECE-9FEE75DACB4B</attributeRef>
-<attributeRef>826E201C-6C62-3501-945E-6A2297938150</attributeRef>
 <attributeRef>B188C3F8-4755-B6C7-C076-2906F0701144</attributeRef>
 </usedAttributes>
 </identifier>

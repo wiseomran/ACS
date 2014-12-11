@@ -23,7 +23,7 @@
    <object objectType="Entity" objectID="825A7D5C-A93C-73BB-9728-12D177CD0FFD" name="COMM PKG" seqName="seg_0"/>
    <object objectType="Entity" objectID="8FAF75D4-D9A7-BC4A-4308-71766C08F116" name="EMPLOYEE ACTIONS" seqName="seg_0"/>
    <object objectType="Entity" objectID="948AC33B-F0C7-DE54-74F3-BFE8399B97C5" name="COMM LOCATIONS DEPT" seqName="seg_0"/>
-   <object objectType="Entity" objectID="9BC63B6E-B627-814E-E8F7-8B10289E9567" name="COMM MASTER" seqName="seg_0"/>
+   <object objectType="Entity" objectID="9BC63B6E-B627-814E-E8F7-8B10289E9567" name="process" seqName="seg_0"/>
    <object objectType="Entity" objectID="A0A7DF2C-D520-56B7-2862-851E7D7EA105" name="COMM NOTE" seqName="seg_0"/>
    <object objectType="Entity" objectID="A4AF1178-014A-1CE1-2431-EF89C00F6A3F" name="EPX MAIL" seqName="seg_0"/>
    <object objectType="Entity" objectID="AB7CB932-3CDF-3A37-2BF9-A09D5E848DE6" name="COMM SADER DETAIL" seqName="seg_0"/>

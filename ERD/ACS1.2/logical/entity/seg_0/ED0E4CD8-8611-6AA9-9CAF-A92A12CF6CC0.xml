@@ -17,7 +17,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="LINKED CODE" id="003ACE3E-B7CD-1591-7E30-F2AB15A02A84">
+<Attribute name="PROCESS_NO" id="003ACE3E-B7CD-1591-7E30-F2AB15A02A84">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-04 18:59:50 UTC</createdTime>
 <commentInRDBMS>ر�ك افربظ</commentInRDBMS>
@@ -26,26 +26,13 @@
 <engineerTo>
 <item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>BB636D4E-F7A8-A536-0718-691C410C51ED</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-</Attribute>
-<Attribute name="LINKED YEAR" id="E865B77B-E548-8479-7572-A8563EBA1520">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-04 18:59:50 UTC</createdTime>
-<commentInRDBMS>افسلة</commentInRDBMS>
-<generatorID>934A6A0F-77BD-2258-4004-47903FB1D030</generatorID>
-<ownerDesignName>ACS1.2</ownerDesignName>
-<engineerTo>
-<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
-</engineerTo>
-<referedAttribute>1002C87B-657E-7429-3125-A9EDEEF36988</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
 </Attribute>
-<Attribute name="PROCESS NO" id="4FE4167A-E3CA-905D-1B1A-D7D2AE55A680">
+<Attribute name="PROCESS_NO1" id="4FE4167A-E3CA-905D-1B1A-D7D2AE55A680">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-04 18:59:50 UTC</createdTime>
 <commentInRDBMS>ر�ك اف�ٍد</commentInRDBMS>
@@ -57,21 +44,7 @@
 <referedAttribute>41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-</Attribute>
-<Attribute name="YEAR" id="B363B4D9-F5FB-5A4A-CAD4-B018187D7242">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-04 18:59:50 UTC</createdTime>
-<commentInRDBMS>سلة اف�ٍد</commentInRDBMS>
-<generatorID>62328B2C-7194-39FB-AE08-F3044A481B22</generatorID>
-<ownerDesignName>ACS1.2</ownerDesignName>
-<engineerTo>
-<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
-</engineerTo>
-<referedAttribute>FD798286-B0DC-7126-BFF8-A5D18C31CBF0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
 </Attribute>
 <Attribute name="SADER NO" id="5522CC49-658B-0CA2-FB4B-960C17B1E0F8">
 <createdBy>Administrator</createdBy>
@@ -190,10 +163,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>003ACE3E-B7CD-1591-7E30-F2AB15A02A84</attributeRef>
-<attributeRef>E865B77B-E548-8479-7572-A8563EBA1520</attributeRef>
 <attributeRef>4FE4167A-E3CA-905D-1B1A-D7D2AE55A680</attributeRef>
-<attributeRef>B363B4D9-F5FB-5A4A-CAD4-B018187D7242</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

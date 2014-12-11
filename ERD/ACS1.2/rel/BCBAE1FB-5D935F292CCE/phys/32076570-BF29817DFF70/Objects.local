@@ -43,7 +43,7 @@
    <object objectType="Table" objectID="5A5672DC-96D0-2C44-AED6-20BAC8F09380" name="table_template" seqName="seg_0"/>
    <object objectType="Table" objectID="5DE533B1-6911-CD02-2D1E-1AE7D87217AD" name="EPX_MAIL" seqName="seg_0"/>
    <object objectType="Table" objectID="60B068E2-483C-7D09-9A01-275681BF8D84" name="COMM_PKG_DTL" seqName="seg_0"/>
-   <object objectType="Table" objectID="64DBC6E5-097C-8856-2E67-AE2B79EC45B6" name="COMM_MASTER" seqName="seg_0"/>
+   <object objectType="Table" objectID="64DBC6E5-097C-8856-2E67-AE2B79EC45B6" name="processes" seqName="seg_0"/>
    <object objectType="Table" objectID="6E1F1189-49E6-0A39-E399-0942E1A3CCD4" name="COMM_SUB_DEPT" seqName="seg_0"/>
    <object objectType="Table" objectID="7973D418-CD3F-BDD5-FF42-B9D0AF601CC5" name="OSD_IVR" seqName="seg_0"/>
    <object objectType="Table" objectID="879FA997-E454-86C8-5CA5-3598E1FF1E6F" name="COMM_DOC" seqName="seg_0"/>

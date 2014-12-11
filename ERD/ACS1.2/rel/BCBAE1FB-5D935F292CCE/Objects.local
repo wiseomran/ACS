@@ -9,7 +9,6 @@
    <object objectType="Table" objectID="00DC0E85-2C37-8450-CA15-43D59602CFC4" name="COMM_EMPLOYEES" seqName="seg_0"/>
    <object objectType="Table" objectID="BD2A8CEB-7B21-3C34-D374-9F460806189D" name="COMM_LOCATIONS" seqName="seg_0"/>
    <object objectType="Table" objectID="E344ED07-CC95-DF4E-552C-F19C142E87FB" name="COMM_LOCATIONS_DEPT" seqName="seg_0"/>
-   <object objectType="Table" objectID="64DBC6E5-097C-8856-2E67-AE2B79EC45B6" name="COMM_MASTER" seqName="seg_0"/>
    <object objectType="Table" objectID="965CB31A-1597-B0A4-E8E3-52FCD080D48B" name="COMM_MASTER_DETAIL" seqName="seg_0"/>
    <object objectType="Table" objectID="B4EA3449-3711-3C2F-C855-555EE79B87E3" name="COMM_NOTE" seqName="seg_0"/>
    <object objectType="Table" objectID="9A0DABFE-5DF9-12EF-CE36-A1D7F761546F" name="COMM_PKG" seqName="seg_0"/>
@@ -46,6 +45,7 @@
    <object objectType="Table" objectID="B9719AA6-2C95-17A4-559C-50285F4FA75E" name="SAVE_DOC" seqName="seg_0"/>
    <object objectType="Table" objectID="2353E48C-C487-1755-70C0-AA345A2DEF40" name="TELLEGRAM" seqName="seg_0"/>
    <object objectType="Table" objectID="C3B44AAD-FADE-039E-0EA0-44AABF8E39CB" name="WOMEN_REQUEST" seqName="seg_0"/>
+   <object objectType="Table" objectID="64DBC6E5-097C-8856-2E67-AE2B79EC45B6" name="processes" seqName="seg_0"/>
    <object objectType="Table" objectID="5A5672DC-96D0-2C44-AED6-20BAC8F09380" name="table_template" seqName="seg_0"/>
    <object objectType="View" objectID="01E6910D-FCD5-E831-0905-025AAEFC9D9B" name="COMM_ALL" seqName="seg_0"/>
    <object objectType="View" objectID="5575E418-853E-A8A6-5B3D-F0CC9F68AB73" name="COMM_SADER_ALL" seqName="seg_0"/>

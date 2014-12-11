@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COMM_MASTER" directorySegmentName="seg_0" id="64DBC6E5-097C-8856-2E67-AE2B79EC45B6">
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="processes" directorySegmentName="seg_0" id="64DBC6E5-097C-8856-2E67-AE2B79EC45B6">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:50 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
@@ -12,15 +12,7 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <indexProxies>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MAST_IDX5" id="025D2390-A2F8-F64B-7D5D-B5C053EA285A">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MSTER_DATE_INDEX" id="0B539D8C-018F-970A-2C9A-BAC71A182F70">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="processes_date" id="0B539D8C-018F-970A-2C9A-BAC71A182F70">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:53 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
@@ -29,7 +21,7 @@
 <segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
 <tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
 </IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MAST_IDX4" id="24535FC0-4763-7A20-10B3-B87882F3D635">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="processes_date_dept" id="24535FC0-4763-7A20-10B3-B87882F3D635">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:53 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
@@ -37,7 +29,7 @@
 <segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
 <tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
 </IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ID_IND" id="6677F5A3-7E1F-F44E-BB2C-9CF4ED083A53">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="processes_applicant_id" id="6677F5A3-7E1F-F44E-BB2C-9CF4ED083A53">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:53 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
@@ -45,7 +37,7 @@
 <segment>F0B67C8A-0DE2-BB15-C63E-46D98D9CFF14</segment>
 <tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
 </IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MAST_IDX1" id="72C0B1B5-B55C-5616-6024-2439DCD6A172">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="processes_subject" id="72C0B1B5-B55C-5616-6024-2439DCD6A172">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:53 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
@@ -53,7 +45,7 @@
 <segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
 <tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
 </IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_PROCESS_YEAR" id="749C4586-02DB-AAE7-4139-5B155623E03C">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="processes_pk" id="749C4586-02DB-AAE7-4139-5B155623E03C">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:53 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
@@ -61,84 +53,12 @@
 <segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
 <tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
 </IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MAST_PROC_DEPARTMENT_IDX" id="7A97A44F-7C9A-C5CF-4228-5BC6E235DFEA">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="processes_date_number" id="D3AD7E44-5DB6-3B0F-620B-72BE174A95F9">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:53 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
 <schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
 <segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SADER_NO_YEAR" id="A3E89AD0-B058-D71A-340C-92667A4CB550">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>64AF69CC-EEE2-7ACA-E42F-6F3A91B7FA37</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_IDX12" id="AEFDCB8C-EF90-B3FB-3B5C-B9C164183966">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>999F9113-25C7-4D9B-C3E0-DC5DDE782638</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MAST_YEAR_IDX11" id="B71206E6-0BA9-0413-B710-455F9B1C8E49">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MAST_DEPT_NO_IDX" id="BAD2F98B-D211-7281-681B-F5D2C6763FCC">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>33C4232C-34FB-AC36-8757-1A72DA532E08</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MASTER_ACTION_IDX" id="BC4755AB-B4F9-252F-5582-CF6606EC443F">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>4A31EA3E-131B-0F5D-34A2-325D25087A61</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="OSD_COM_MAST_TELG_YY_IDX" id="C5DFB535-5EE3-CFE5-E562-C8F00D7787B0">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
-<tableSpace>134DEAAC-40A3-C29E-079A-50EB33274A15</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MAST_IDX3" id="D3AD7E44-5DB6-3B0F-620B-72BE174A95F9">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMM_MASTER_IDX2" id="D9DEE17B-90B6-FB86-40E1-2583CC672A9C">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>655E7A28-6B1F-5541-3876-F316D0813335</segment>
-<tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
-</IndexProxy>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TLGRM_IDX" id="FED28792-9833-598A-D568-4FF725DB6659">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:53 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-<schemaObject>1894C33F-4036-073F-AD34-1CA4F5DC3AF8</schemaObject>
-<segment>C89FE93C-EC0A-FB1B-F935-D1C184B14531</segment>
 <tableSpace>8CE7A382-C962-FE8C-BC23-38A042F3188F</tableSpace>
 </IndexProxy>
 </indexProxies>
@@ -158,7 +78,7 @@
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="DEPARTMENT_NO" id="20E6203C-29AA-6932-7770-EC5164BFFD44">
+<ColumnProxy name="create_dept" id="20E6203C-29AA-6932-7770-EC5164BFFD44">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
@@ -295,11 +215,6 @@
 <ownerDesignName>ACS1.1</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="PACKAGE" id="BAACC659-0804-85AA-B5A6-982AE3CFE643">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-02 09:16:51 UTC</createdTime>
-<ownerDesignName>ACS1.1</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="YEAR" id="BEE65B06-CA60-5FB4-971A-F0D2E49930B6">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-02 09:16:51 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>

@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PROCESS NO" id="276232EF-66A2-D2A9-617E-D656D8AF27F8">
+<Attribute name="PROCESS_NO" id="276232EF-66A2-D2A9-617E-D656D8AF27F8">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-04 18:59:49 UTC</createdTime>
 <commentInRDBMS>ر�ك اف�ٍد</commentInRDBMS>
@@ -28,21 +28,7 @@
 <referedAttribute>41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-</Attribute>
-<Attribute name="YEAR" id="A8BF09E1-597E-76C3-70CD-B18F55ED49B8">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-04 18:59:49 UTC</createdTime>
-<commentInRDBMS>افسلة</commentInRDBMS>
-<generatorID>C41CC3C9-0E1C-9883-EA7F-092E475ED492</generatorID>
-<ownerDesignName>ACS1.2</ownerDesignName>
-<engineerTo>
-<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
-</engineerTo>
-<referedAttribute>FD798286-B0DC-7126-BFF8-A5D18C31CBF0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
 </Attribute>
 <Attribute name="DEPARTMENT NO" id="492D71FB-A46A-D171-416E-1096AAFE6AED">
 <createdBy>Administrator</createdBy>
@@ -394,7 +380,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>276232EF-66A2-D2A9-617E-D656D8AF27F8</attributeRef>
-<attributeRef>A8BF09E1-597E-76C3-70CD-B18F55ED49B8</attributeRef>
 <attributeRef>5C137DEA-BB0C-2E25-5EED-A915A86BE2EE</attributeRef>
 </usedAttributes>
 </identifier>

@@ -39,9 +39,8 @@
 <dataType>NUMBER (2)</dataType>
 <headerAlias>YEAR</headerAlias>
 <reference>false</reference>
-<referencedColumn>BEE65B06-CA60-5FB4-971A-F0D2E49930B6</referencedColumn>
 </viewElement>
-<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DEPARTMENT_NO" id="E516A8C2-1640-911B-AE1B-4AF9F98CA019">
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="create_dept" id="E516A8C2-1640-911B-AE1B-4AF9F98CA019">
 <sourceConnName>osd11g</sourceConnName>
 <sourceObjSchema>COMM_ALL</sourceObjSchema>
 <sourceObjName>DEPARTMENT_NO</sourceObjName>
@@ -49,7 +48,7 @@
 <createdTime>2014-12-02 09:16:57 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<dataType>VARCHAR2 (10 BYTE)</dataType>
+<dataType>NUMBER</dataType>
 <headerAlias>DEPARTMENT_NO</headerAlias>
 <reference>false</reference>
 <referencedColumn>20E6203C-29AA-6932-7770-EC5164BFFD44</referencedColumn>
@@ -176,7 +175,7 @@
 <createdTime>2014-12-02 09:16:57 UTC</createdTime>
 <ownerDesignName>ACS1.1</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<dataType>VARCHAR2 (100 BYTE)</dataType>
+<dataType>VARCHAR2 (300 BYTE)</dataType>
 <headerAlias>SUBJECT</headerAlias>
 <reference>false</reference>
 <referencedColumn>D0E6F3A8-61CD-EFB2-86D5-EA3B64D85F83</referencedColumn>

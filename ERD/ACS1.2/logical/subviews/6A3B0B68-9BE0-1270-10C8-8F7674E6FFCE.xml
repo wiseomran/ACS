@@ -174,10 +174,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1273" y="642"/>
-<point x="1273" y="763"/>
-<point x="1644" y="763"/>
-<point x="1644" y="582"/>
+<point x="1008" y="642"/>
+<point x="1217" y="819"/>
+<point x="1588" y="819"/>
+<point x="1412" y="20"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="6149F61B-766F-299B-B8B4-09A495A221A3" otype="Relation" vid_source="D8B310EB-CAE3-BD8C-75A3-BEF88AB59657" vid_target="4B62AE91-3803-B015-4198-AD6B3120CB89">
@@ -195,8 +195,8 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="1008" y="642"/>
-<point x="765" y="1088"/>
-<point x="765" y="1763"/>
+<point x="779" y="1074"/>
+<point x="779" y="1749"/>
 <point x="20" y="1636"/>
 </points>
 </Connector>
@@ -204,10 +204,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1975" y="158"/>
-<point x="1811" y="158"/>
-<point x="1811" y="294"/>
-<point x="1807" y="294"/>
+<point x="1976" y="156"/>
+<point x="1798" y="308"/>
+<point x="1798" y="308"/>
+<point x="1412" y="20"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="836C80E0-96CB-163F-90C6-CAE6FBCCB44A" otype="Relation" vid_source="D2900E36-5E1E-9051-5A18-9BD6ECCEA8F1" vid_target="60BCEED2-7CFC-B167-42B6-1C44BBC3B119">
@@ -215,8 +215,8 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="1008" y="642"/>
-<point x="1697" y="1144"/>
-<point x="1697" y="1882"/>
+<point x="1739" y="1102"/>
+<point x="1739" y="1840"/>
 <point x="1996" y="1636"/>
 </points>
 </Connector>
@@ -225,8 +225,8 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="1008" y="642"/>
-<point x="1231" y="1613"/>
-<point x="1751" y="1613"/>
+<point x="1203" y="1641"/>
+<point x="1723" y="1641"/>
 <point x="1601" y="1636"/>
 </points>
 </Connector>
@@ -245,8 +245,8 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="566" y="1636"/>
-<point x="483" y="1945"/>
-<point x="483" y="1791"/>
+<point x="497" y="1931"/>
+<point x="497" y="1777"/>
 <point x="20" y="1636"/>
 </points>
 </Connector>
@@ -275,8 +275,8 @@
 <lineWidth>1</lineWidth>
 <points>
 <point x="1008" y="642"/>
-<point x="1259" y="1585"/>
-<point x="784" y="1585"/>
+<point x="1273" y="1571"/>
+<point x="798" y="1571"/>
 <point x="566" y="1636"/>
 </points>
 </Connector>

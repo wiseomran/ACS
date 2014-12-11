@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BC63B6E-B627-814E-E8F7-8B10289E9567" name="COMM MASTER">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9BC63B6E-B627-814E-E8F7-8B10289E9567" name="process">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-04 18:59:49 UTC</createdTime>
 <generatorID>8414BEC0-7C67-E410-2C8A-D1E44A4D5454</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PROCESS NO" id="41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538">
+<Attribute name="PROCESS_NO" id="41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538">
 <createdBy>Administrator</createdBy>
 <createdTime>2014-12-04 18:59:49 UTC</createdTime>
 <commentInRDBMS>ر�ك اف�ٍد</commentInRDBMS>
@@ -27,20 +27,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-</Attribute>
-<Attribute name="YEAR" id="FD798286-B0DC-7126-BFF8-A5D18C31CBF0">
-<createdBy>Administrator</createdBy>
-<createdTime>2014-12-04 18:59:49 UTC</createdTime>
-<commentInRDBMS>افسلة</commentInRDBMS>
-<generatorID>6D587813-6C7D-2EBE-0A7F-64C9307A7839</generatorID>
-<ownerDesignName>ACS1.2</ownerDesignName>
-<engineerTo>
-<item key="BCBAE1FB-7C72-6297-64F2-5D935F292CCE" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
 </Attribute>
 <Attribute name="DEPARTMENT NO" id="2C00FF67-20A8-64FC-EB4E-508470FB82D7">
 <createdBy>Administrator</createdBy>
@@ -721,7 +708,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>41E3ED2A-C1A0-2ABF-4A37-9AF23ED2B538</attributeRef>
-<attributeRef>FD798286-B0DC-7126-BFF8-A5D18C31CBF0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
